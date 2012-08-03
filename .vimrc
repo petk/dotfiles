@@ -4,6 +4,7 @@ filetype plugin indent on
 :set cursorline cursorcolumn
 :set incsearch
 :set hlsearch
+:set number
 
 """"""""""""""""""""""""""""""""""""""""
 " custom commands
