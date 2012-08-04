@@ -1,12 +1,18 @@
 " .vimrc
 " Author: Peter Kokot <peterkokot@gmail.com>
-" Source: http://github.com/peterkokot/vim/
+" Source: http://github.com/peterkokot/vim
 
 filetype plugin indent on
 set nocompatible
 
-syntax enable
-set background=dark
+syntax on
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
+set t_Co=16
+let g:solarized_termcolors=16
 colorscheme solarized
 
 set cursorline cursorcolumn
