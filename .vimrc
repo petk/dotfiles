@@ -2,6 +2,7 @@
 " Author: Peter Kokot <peterkokot@gmail.com>
 " Source: http://github.com/peterkokot/vim
 
+call pathogen#infect()
 filetype plugin indent on
 set nocompatible
 
