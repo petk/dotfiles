@@ -25,7 +25,12 @@ set mouse=a
 set guioptions-=m
 set guioptions-=T
 set guioptions-=r
+set ruler
 
+" Shortcut to rapidly toggle `set list`
+nmap ,l :set list!
+" Use the same symbols as TextMate for tabstops and EOLs
+set listchars=tab:▸\ ,eol:¬
 
 """"""""""""""""""""""""""""""""""""""""
 " custom commands
