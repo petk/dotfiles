@@ -50,6 +50,9 @@ setlocal expandtab
 setlocal shiftwidth=4
 setlocal softtabstop=4
 
+set fdm=syntax
+set foldlevelstart=20
+
 """"""""""""""""""""""""""""""""""""""""
 " custom commands
 """"""""""""""""""""""""""""""""""""""""
