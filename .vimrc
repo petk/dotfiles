@@ -40,6 +40,16 @@ if has("statusline")
     set statusline=%<%f\ %h%m%r%=%{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%k\ %-14.(%l,%c%V%)\ %P
 endif
 
+set encoding=utf-8
+setglobal fileencoding=utf-8
+set nobomb
+set termencoding=utf-8
+set fileencodings=utf-8
+
+setlocal expandtab
+setlocal shiftwidth=4
+setlocal softtabstop=4
+
 """"""""""""""""""""""""""""""""""""""""
 " custom commands
 """"""""""""""""""""""""""""""""""""""""
