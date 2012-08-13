@@ -32,6 +32,14 @@ nmap ,l :set list!
 " Use the same symbols as TextMate for tabstops and EOLs
 set listchars=tab:▸\ ,eol:¬
 
+" always show status bar
+set laststatus=2
+
+" show file encoding in status bar
+if has("statusline")
+    set statusline=%<%f\ %h%m%r%=%{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%k\ %-14.(%l,%c%V%)\ %P
+endif
+
 """"""""""""""""""""""""""""""""""""""""
 " custom commands
 """"""""""""""""""""""""""""""""""""""""
