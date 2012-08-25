@@ -7,10 +7,8 @@ Installation
 ------------
 
 ```bash
-git clone git://github.com/peterkokot/vim.git
-cd vim
-git submodule update
+git clone git://github.com/peterkokot/vim.git --recursive
 cp vim/.vimrc ~/.vimrc
-cp vim/.vim ~/
+cp -r vim/.vim ~/
 ```
 
