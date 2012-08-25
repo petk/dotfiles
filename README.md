@@ -8,6 +8,7 @@ Installation
 
 ```bash
 git clone git://github.com/peterkokot/vim.git
+cd vim
 git submodule update
 cp vim/.vimrc ~/.vimrc
 cp vim/.vim ~/
