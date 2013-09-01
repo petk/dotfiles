@@ -1,7 +1,15 @@
 Vim runtime configuration and scripts usage
 ===========================================
 
-More or less for demo purposes and private usage.
+
+About
+-----
+
+Vim is a highly configurable text editor built to enable efficient text editing.
+It is an improved version of the vi editor distributed with most UNIX systems.
+
+This is an example of extending and configuring vim to my needs.
+
 
 Installation
 ------------
