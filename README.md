@@ -14,9 +14,8 @@ Installation
 ------------
 
 ```bash
-cd ~
-git clone git://github.com/peterkokot/vim.git --recursive
-cp vim/.vimrc ./ && cp -r vim/.vim ./
+git clone git://github.com/peterkokot/vim.git --recursive ~/vim
+sh install.sh
 ```
 
 Used plugins
@@ -29,6 +28,7 @@ Used plugins
 * [vim-surround](https://github.com/tpope/vim-surround): quoting/parenthesizing made simple
 * [ctrlp.vim](https://github.com/kien/ctrlp.vim): fuzzy file, buffer, mru, tag, etc finder
 * [snipmate.vim](https://github.com/msanders/snipmate.vim): snippets features
+* [vim-markdown](https://github.com/plasticboy/vim-markdown): Markdown Vim mode
 
 Used color scheme
 -----------------
