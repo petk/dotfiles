@@ -26,6 +26,7 @@ Used plugins
 * [nerdtree](https://github.com/scrooloose/nerdtree): a Tree explorer for vim
 * [vim-json](https://github.com/elzr/vim-json): a better JSON for Vim
 * [vim-surround](https://github.com/tpope/vim-surround): quoting/parenthesizing made simple
+* [ctrlp.vim](https://github.com/kien/ctrlp.vim): Fuzzy file, buffer, mru, tag, etc finder
 
 Used color scheme
 -----------------

@@ -82,3 +82,8 @@ function! s:CloseIfOnlyNerdTreeLeft()
     endif
 endfunction
 
+"""""""""""""""""""""""""""""""""""""""
+" ctrlp.vim
+"""""""""""""""""""""""""""""""""""""""
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
