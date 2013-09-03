@@ -2,9 +2,25 @@
 " Author: Peter Kokot <peterkokot@gmail.com>
 " Source: http://github.com/peterkokot/vim
 
-call pathogen#infect()
-filetype plugin indent on
 set nocompatible
+filetype off " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+filetype plugin indent on
+
+Bundle 'tpope/vim-rails'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-surround'
+Bundle 'kien/ctrlp'
+Bundle 'msanders/snipmate'
+Bundle 'plasticboy/vim-markdown'
+Bundle 'evidens/vim-twig'
 
 syntax on
 if has('gui_running')
