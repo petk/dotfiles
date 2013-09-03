@@ -19,7 +19,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-surround'
 Bundle 'kien/ctrlp.vim'
 Bundle 'msanders/snipmate.vim'
-Bundle 'plasticboy/vim-markdown'
+Bundle 'tpope/vim-markdown'
 Bundle 'evidens/vim-twig'
 
 syntax on
@@ -69,8 +69,12 @@ setlocal softtabstop=4
 set fdm=syntax
 set foldlevelstart=20
 
-" disable folding
+" disable folding in markdown files
 let g:vim_markdown_folding_disabled=1
+
+" set highlighting for *.md files
+au BufRead,BufNewFile *.md set filetype=markdown
+
 
 """"""""""""""""""""""""""""""""""""""""
 " custom commands
