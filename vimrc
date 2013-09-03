@@ -24,6 +24,7 @@ Bundle 'evidens/vim-twig'
 Bundle 'elzr/vim-json'
 Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/syntastic'
+Bundle 'Rykka/riv.vim'
 
 syntax on
 if has('gui_running')

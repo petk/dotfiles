@@ -42,4 +42,6 @@ Following syntax hignlightning modes are used:
 
 * [vim-json](https://github.com/elzr/vim-json): a better JSON for Vim
 * [vim-markdown](https://github.com/tpope/vim-markdown): Markdown Vim mode
-* [vim-twig](https://github.com/evidens/vim-twig): Twig syntax highlighting
+* [vim-twig](https://github.com/evidens/vim-twig): Twig syntax highlighiting
+* [riv.vim](https://github.com/Rykka/riv.vim): reStructructuredText
+
