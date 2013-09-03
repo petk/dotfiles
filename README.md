@@ -14,14 +14,14 @@ Installation
 ------------
 
 ```bash
-git clone git://github.com/peterkokot/vim.git --recursive ~/vim
+git clone git://github.com/peterkokot/vim.git --recursive ~/.vim
 sh install.sh
 ```
 
 Used plugins
 ------------
 
-* [vim-pathogen](https://github.com/tpope/vim-pathogen): runtimepath manager
+* [vundle](https://github.com/gmarik/vundle): the plug-in manager for Vim
 * [vim-rails](https://github.com/tpope/vim-rails): Ruby on Rails power tools
 * [nerdtree](https://github.com/scrooloose/nerdtree): a Tree explorer for Vim
 * [vim-json](https://github.com/elzr/vim-json): a better JSON for Vim
