@@ -21,6 +21,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'msanders/snipmate.vim'
 Bundle 'tpope/vim-markdown'
 Bundle 'evidens/vim-twig'
+Bundle 'elzr/vim-json'
 
 syntax on
 if has('gui_running')
@@ -77,6 +78,10 @@ au BufRead,BufNewFile *.md set filetype=markdown
 
 " set highlightning for *.html.twig files
 au BufRead,BufNewFile *.html.twig set filetype=twig
+
+" set highlightning for *.json files
+au BufRead,BufNewFile *.json set filetype=json
+
 
 """"""""""""""""""""""""""""""""""""""""
 " custom commands
