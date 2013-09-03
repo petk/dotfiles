@@ -22,6 +22,7 @@ Bundle 'msanders/snipmate.vim'
 Bundle 'tpope/vim-markdown'
 Bundle 'evidens/vim-twig'
 Bundle 'elzr/vim-json'
+Bundle 'mattn/emmet-vim'
 
 syntax on
 if has('gui_running')
