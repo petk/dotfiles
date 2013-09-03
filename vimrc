@@ -23,6 +23,7 @@ Bundle 'tpope/vim-markdown'
 Bundle 'evidens/vim-twig'
 Bundle 'elzr/vim-json'
 Bundle 'mattn/emmet-vim'
+Bundle 'scrooloose/syntastic'
 
 syntax on
 if has('gui_running')
