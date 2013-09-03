@@ -75,6 +75,8 @@ let g:vim_markdown_folding_disabled=1
 " set highlighting for *.md files
 au BufRead,BufNewFile *.md set filetype=markdown
 
+" set highlightning for *.html.twig files
+au BufRead,BufNewFile *.html.twig set filetype=twig
 
 """"""""""""""""""""""""""""""""""""""""
 " custom commands
