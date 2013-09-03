@@ -119,3 +119,6 @@ endfunction
 """""""""""""""""""""""""""""""""""""""
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+"Highlight potentially unwanted whitespace
+highlight BadWhitespace term=standout ctermbg=red guibg=red
+match BadWhitespace /[^* \t]\zs\s\+$\| \+\ze\t/
