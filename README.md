@@ -38,17 +38,19 @@ Used color scheme
 Used modes
 ----------
 
-Following syntax hignlightning modes are used:
+Used plugins - modes for syntax highlighting:
 
 * [vim-json](https://github.com/elzr/vim-json): a better JSON for Vim
 * [vim-markdown](https://github.com/tpope/vim-markdown): Markdown Vim mode
-* [vim-twig](https://github.com/evidens/vim-twig): Twig syntax highlighiting
+* [vim-twig](https://github.com/evidens/vim-twig): Twig syntax highlighting
 * [riv.vim](https://github.com/Rykka/riv.vim): reStructructuredText
 
 Documentation
 -------------
 
 Some more documentation and information for using this configuration and Vim can be found in the [doc](https://github.com/peterkokot/vim/blob/master/doc/index.md) folder.
+
+* [Vim cheat sheet](https://github.com/peterkokot/vim/blob/master/doc/cheatSheet.md)
 
 License
 -------
