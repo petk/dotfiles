@@ -45,3 +45,12 @@ Following syntax hignlightning modes are used:
 * [vim-twig](https://github.com/evidens/vim-twig): Twig syntax highlighiting
 * [riv.vim](https://github.com/Rykka/riv.vim): reStructructuredText
 
+Documentation
+-------------
+
+Some more documentation and information for using this configuration and Vim can be found in the [doc](https://github.com/peterkokot/vim/doc/index.md) folder.
+
+License
+-------
+
+This configuration and repository is under the [MIT license](https://github.com/peterkokot/vim/LICENSE).
