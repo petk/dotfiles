@@ -29,6 +29,7 @@ Used plugins
 * [snipmate.vim](https://github.com/msanders/snipmate.vim): snippets features
 * [emmet-vim](https://github.com/mattn/emmet-vim): Vim's essential toolkit for web-developers
 * [syntastic](https://github.com/scrooloose/syntastic): Syntax checking
+* [vim-fugitive](https://github.com/tpope/vim-fugitive): a Git wrapper
 
 Used color scheme
 -----------------
