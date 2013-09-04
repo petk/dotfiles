@@ -48,9 +48,9 @@ Following syntax hignlightning modes are used:
 Documentation
 -------------
 
-Some more documentation and information for using this configuration and Vim can be found in the [doc](https://github.com/peterkokot/vim/doc/index.md) folder.
+Some more documentation and information for using this configuration and Vim can be found in the [doc](https://github.com/peterkokot/vim/blob/master/doc/index.md) folder.
 
 License
 -------
 
-This configuration and repository is under the [MIT license](https://github.com/peterkokot/vim/LICENSE).
+This configuration and repository is under the [MIT license](https://github.com/peterkokot/vim/blob/master/LICENSE).
