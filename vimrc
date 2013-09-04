@@ -26,6 +26,7 @@ Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'Rykka/riv.vim'
 Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-repeat'
 
 syntax on
 if has('gui_running')

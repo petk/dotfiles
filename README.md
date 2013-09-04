@@ -30,6 +30,7 @@ Used plugins
 * [emmet-vim](https://github.com/mattn/emmet-vim): Vim's essential toolkit for web-developers
 * [syntastic](https://github.com/scrooloose/syntastic): Syntax checking
 * [vim-fugitive](https://github.com/tpope/vim-fugitive): a Git wrapper
+* [vim-repeat](https://github.com/tpope/vim-repeat): enable repeating supported plugin maps with "."
 
 Used color scheme
 -----------------

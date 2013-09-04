@@ -117,7 +117,6 @@ General
 `p` put (paste) the clipboard after cursor/current line  
 `P` put (paste) before cursor/current line  
 `:set paste` avoid unexpected effects in pasting  
-  
 `:registers` display the contents of all registers  
 `"xyw` yank word into register x  
 `"xyy` yank line into register x  
@@ -195,9 +194,7 @@ General
 `#` search backward, word under cursor  
 `:%s/old/new/g` replace all old with new throughout file  
 `:%s/old/new/gc` replace all old with new throughout file with confirmation  
-`:argdo %s/old/new/gc | wq` open multiple files and run this command to replace old  
-                            with new in every file with confirmation, save and quit  
-
+`:argdo %s/old/new/gc | wq` open multiple files and run this command to replace old with new in every file with confirmation, save and quit  
 
 
 ### Multiple files
@@ -254,5 +251,17 @@ General
 
 
 
-PLUGINS
+Plugins
 -------
+
+### Vim surround
+
+Besides documentation of the [vim-surround](https://github.com/tpope/vim-surround) plugin here is a quick cheat sheet:
+
+``cs"'`` changes " delimiters to ' delimiters
+``cst"`` adds " delimiters
+``ds"`` removes " delimiters
+``ysiw]`` adds [] delimiters on word where is cursor currently
+````
+
+
