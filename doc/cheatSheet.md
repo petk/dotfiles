@@ -18,7 +18,7 @@ General
 `E` jump to end of words (no punctuation)  
 `b` jump backward by words (punctuation considered words)  
 `B` jump backward by words (no punctuation)  
-`be jump backward to end of words  
+`be` jump backward to end of words  
 `0` (zero) start of line  
 `^` first non-blank character of line  
 `$` end of line  
@@ -52,7 +52,7 @@ General
 
 `:marks` list all the current marks  
 `ma` make a bookmark named a at the current cursor position  
-`a go to position of bookmark a  
+`a` go to position of bookmark a  
 `'a` go to the line with bookmark a  
 `` `.`` go to the line that you last edited  
 
