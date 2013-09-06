@@ -82,7 +82,7 @@ let g:vim_markdown_folding_disabled=1
 au BufRead,BufNewFile *.md set filetype=markdown
 
 " set highlightning for *.html.twig files
-au BufRead,BufNewFile *.html.twig set filetype=twig
+au BufRead,BufNewFile *.html.twig set filetype=html.twig
 
 " set highlightning for *.json files
 au BufRead,BufNewFile *.json set filetype=json
