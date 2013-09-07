@@ -15,7 +15,7 @@ Installation
 
 ```bash
 git clone git://github.com/peterkokot/vim.git --recursive ~/.vim
-sh .vim/install.sh
+.vim/install
 ```
 
 Used plugins
