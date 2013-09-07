@@ -74,6 +74,7 @@ setlocal softtabstop=4
 
 set fdm=syntax
 set foldlevelstart=20
+set noswapfile
 
 " disable folding in markdown files
 let g:vim_markdown_folding_disabled=1
