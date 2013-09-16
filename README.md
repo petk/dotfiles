@@ -23,7 +23,8 @@ Documentation and informations for using this configuration can be found in the 
 Features
 --------
 
-* vim
+* installation script
+* vim custom runtime configuration and scripts
 
 
 License
