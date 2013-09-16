@@ -27,6 +27,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'Rykka/riv.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
+Bundle 'tobyS/pdv'
 
 syntax on
 if has('gui_running')
@@ -126,3 +127,11 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 "Highlight potentially unwanted whitespace
 highlight BadWhitespace term=standout ctermbg=red guibg=red
 match BadWhitespace /[^* \t]\zs\s\+$\| \+\ze\t/
+
+
+""""""""""""""""""""""""""""""""""""""
+" pdv
+""""""""""""""""""""""""""""""""""""""
+
+let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
+nnoremap <buffer> <C-p> :call pdv#DocumentWithSnip()<CR>

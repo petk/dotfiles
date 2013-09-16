@@ -262,6 +262,10 @@ Besides documentation of the [vim-surround](https://github.com/tpope/vim-surroun
 ``cst"`` adds " delimiters
 ``ds"`` removes " delimiters
 ``ysiw]`` adds [] delimiters on word where is cursor currently
-````
 
+### PDV - PHP Documentor for VIM - Generates PHP docblocks
+
+Besides documentation for the [pdv](https://github.com/tobyS/pdv) plugin here is a quick cheat sheet:
+
+``CTRL + P`` adds phpdoc blocks
 
