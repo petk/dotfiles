@@ -24,6 +24,7 @@ Features
 --------
 
 * installation script
+* git configuration
 * vim custom runtime configuration and scripts
 
 
