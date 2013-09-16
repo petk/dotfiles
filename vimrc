@@ -27,7 +27,9 @@ Bundle 'scrooloose/syntastic'
 Bundle 'Rykka/riv.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
+Bundle 'tobyS/vmustache'
 Bundle 'tobyS/pdv'
+Bundle 'SirVer/ultisnips'
 
 syntax on
 if has('gui_running')
@@ -134,4 +136,7 @@ match BadWhitespace /[^* \t]\zs\s\+$\| \+\ze\t/
 """"""""""""""""""""""""""""""""""""""
 
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
-nnoremap <buffer> <C-p> :call pdv#DocumentWithSnip()<CR>
+" PHP documenter script bound to Control-P
+autocmd FileType php inoremap <C-p> <ESC>:call pdv#DocumentWithSnip()<CR>i
+autocmd FileType php nnoremap <C-p> :call pdv#DocumentWithSnip()<CR>
+autocmd FileType php vnoremap <C-p> :call pdv#DocumentWithSnip()<CR> 

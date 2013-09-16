@@ -31,6 +31,8 @@ Used plugins
 * [syntastic](https://github.com/scrooloose/syntastic): Syntax checking
 * [vim-fugitive](https://github.com/tpope/vim-fugitive): a Git wrapper
 * [vim-repeat](https://github.com/tpope/vim-repeat): enable repeating supported plugin maps with "."
+* [vmustache](https://github.com/tobyS/vmustache): Mustache template system for VIMScript
+* [ultisnips](https://github.com/SirVer/ultisnips): implementation of TextMates Snippets for Vim
 * [pdv](https://github.com/tobyS/pdv): PHP Documentor for VIM - Generates PHP docblocks
 
 Used color scheme
