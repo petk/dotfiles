@@ -1,4 +1,6 @@
 #!/bin/sh
-cp ~/.vim/vimrc ~/.vimrc
+
+# VIM
+cp ~/.dotfiles/vim/vimrc ~/.vimrc
 vim +BundleInstall +qall
 echo 'Vim runtime configuration and scripts installed'
