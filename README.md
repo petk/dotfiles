@@ -25,10 +25,11 @@ Features
 
 * installation script
 * git configuration
+* Zsh - shell designed for interactive use, also a powerful scripting language - configuration
 * vim custom runtime configuration and scripts
 
 
 License
 -------
 
-This repository is under the [MIT license](https://github.com/peterkokot/dotfiles/blob/master/LICENSE).
+This repository is released under the [MIT license](https://github.com/peterkokot/dotfiles/blob/master/LICENSE).
