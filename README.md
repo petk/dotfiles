@@ -18,6 +18,13 @@ git clone git://github.com/peterkokot/vim.git --recursive ~/.vim
 .vim/install
 ```
 
+Documentation
+-------------
+
+Documentation and informations for using this configuration and Vim can be found in the [doc](https://github.com/peterkokot/vim/blob/master/doc/index.md) folder.
+
+* [Vim cheat sheet](https://github.com/peterkokot/vim/blob/master/doc/cheatSheet.md)
+
 Used plugins
 ------------
 
@@ -49,13 +56,6 @@ Used plugins - modes for syntax highlighting:
 * [vim-markdown](https://github.com/tpope/vim-markdown): Markdown Vim mode
 * [vim-twig](https://github.com/evidens/vim-twig): Twig syntax highlighting
 * [riv.vim](https://github.com/Rykka/riv.vim): reStructructuredText
-
-Documentation
--------------
-
-Some more documentation and information for using this configuration and Vim can be found in the [doc](https://github.com/peterkokot/vim/blob/master/doc/index.md) folder.
-
-* [Vim cheat sheet](https://github.com/peterkokot/vim/blob/master/doc/cheatSheet.md)
 
 License
 -------
