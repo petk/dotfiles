@@ -11,4 +11,9 @@ vim +BundleInstall +qall
 echo 'Vim runtime configuration and scripts installed'
 
 # zsh
-cp ~/zshrc ~/.zshrc
+cp ~/.dotfiles/zshrc ~/.zshrc
+echo '.zshrc added'
+
+# bash
+cp ~/.dotfiles/bashrc ~/.bashrc
+echo '.bashrc added'

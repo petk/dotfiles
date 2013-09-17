@@ -26,6 +26,7 @@ Features
 * installation script
 * git configuration
 * Zsh - shell designed for interactive use, also a powerful scripting language - configuration
+* bash
 * vim custom runtime configuration and scripts
 
 
