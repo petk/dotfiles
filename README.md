@@ -1,27 +1,31 @@
-Peter's dotfiles
-================
+# Peter's dotfiles
 
-
-About
------
+## About
 
 This repository is configuration files to set up a system to my needs.
 
-Installation
-------------
+## Installation
+
+### Prerequisites
+
+* git
+* vim
+* ruby
+* zsh
+* [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+### Installation
 
 ```bash
 git clone git://github.com/peterkokot/dotfiles.git --recursive ~/.dotfiles
 .dotfiles/install
 ```
 
-Documentation
--------------
+## Documentation
 
 Documentation and informations for using this configuration can be found in the [doc](https://github.com/peterkokot/dotfiles/blob/master/doc/index.md) folder.
 
-Features
---------
+## Features
 
 * installation script
 * git configuration
@@ -29,8 +33,6 @@ Features
 * bash
 * vim custom runtime configuration and scripts
 
-
-License
--------
+## License
 
 This repository is released under the [MIT license](https://github.com/peterkokot/dotfiles/blob/master/LICENSE).
