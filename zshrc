@@ -46,3 +46,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$PATH:/home/peter/.rvm/gems/ruby-1.9.3-p448/bin:/home/peter/.rvm/gems/ruby-1.9.3-p448@global/bin:/home/peter/.rvm/rubies/ruby-1.9.3-p448/bin:/home/peter/.rvm/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/peter/bin:/home/peter/.rvm/bin:/home/peter/.rvm/bin:/home/peter/.rvm/bin
+
+# set default editor
+export EDITOR=/usr/bin/vim
+export VISUAL=/usr/bin/vim

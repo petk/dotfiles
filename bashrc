@@ -8,3 +8,6 @@ fi
 # User specific aliases and functions
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+export EDITOR=/usr/bin/vim
+export VISUAL=/usr/bin/vim
