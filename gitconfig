@@ -1,7 +1,17 @@
 [user]
-	name = Peter Kokot
-	email = peterkokot@gmail.com
+    name = Peter Kokot
+    email = peterkokot@gmail.com
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    ui = auto
+
 [core]
-	editor = vim
+    editor = vim
+    pager = less -R
+
 [push]
-	default = matching
+    default = matching
+
