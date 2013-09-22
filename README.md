@@ -24,7 +24,11 @@ git clone git://github.com/peterkokot/dotfiles.git --recursive ~/.dotfiles
 
 ## Documentation
 
-Documentation and informations for using this configuration can be found in the [doc](https://github.com/peterkokot/dotfiles/blob/master/doc/index.md) folder.
+Documentation for using these dotfiles can be found in the [doc](doc) folder. Contents:
+
+### [Vim](doc/vim.md)
+
+* [Vim cheat sheet](doc/vim/cheatSheet.md)
 
 ## Features
 
@@ -37,4 +41,4 @@ Documentation and informations for using this configuration can be found in the 
 
 ## License
 
-This repository is released under the [MIT license](https://github.com/peterkokot/dotfiles/blob/master/LICENSE).
+This repository is released under the [MIT license](LICENSE).
