@@ -17,3 +17,7 @@ echo '.zshrc added'
 # bash
 cp ~/.dotfiles/bashrc ~/.bashrc
 echo '.bashrc added'
+
+# wget
+cp ~/.dotfiles/wgetrc ~/.wgetrc
+echo '.wgetrc added'

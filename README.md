@@ -13,6 +13,7 @@ This repository is configuration files to set up a system to my needs.
 * ruby
 * zsh
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* wget
 
 ### Installation
 
@@ -32,6 +33,7 @@ Documentation and informations for using this configuration can be found in the 
 * Zsh - shell designed for interactive use, also a powerful scripting language - configuration
 * bash
 * vim custom runtime configuration and scripts
+* wget customization
 
 ## License
 
