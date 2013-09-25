@@ -269,3 +269,10 @@ Besides documentation for the [pdv](https://github.com/tobyS/pdv) plugin here is
 
 ``CTRL + P`` adds phpdoc blocks  
 
+### Vim-php-cs-fixer
+
+[Official documentation](https://github.com/stephpy/vim-php-cs-fixer/tree/master/doc) has some information on using this plugin
+and here is also quick cheet sheat:
+
+``<leader>pcd`` - use php-cs-fixer for the current file
+

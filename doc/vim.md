@@ -26,6 +26,7 @@ Used plugins
 * [vmustache](https://github.com/tobyS/vmustache): Mustache template system for VIMScript
 * [ultisnips](https://github.com/SirVer/ultisnips): implementation of TextMates Snippets for Vim
 * [pdv](https://github.com/tobyS/pdv): PHP Documentor for VIM - Generates PHP docblocks
+* [vim-php-cs-fixer](https://github.com/stephpy/vim-php-cs-fixer): use fabpot/PHP-CS-Fixer
 
 Used color scheme
 -----------------

@@ -30,6 +30,7 @@ Bundle 'tpope/vim-repeat'
 Bundle 'tobyS/vmustache'
 Bundle 'tobyS/pdv'
 Bundle 'SirVer/ultisnips'
+Bundle 'stephpy/vim-php-cs-fixer'
 
 syntax on
 if has('gui_running')
