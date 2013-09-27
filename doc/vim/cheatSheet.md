@@ -96,6 +96,8 @@ General
 `:%retab` fix spaces / tabs issues in whole file  
 `:r [name]` insert the file [name] below the cursor.  
 `:r !{cmd}` execute {cmd} and insert its standard output below the cursor.  
+`<ctrl-v><tab>` - in insert mode it inserts a tab (or any literal copy of character  
+
 
 
 ### Deleting text
@@ -248,7 +250,7 @@ General
 `gi` return to insert mode where you inserted text the last time  
 `CTRL-o` move to previous position you were at  
 `CTRL-i` move to more recent position you were at  
-
+`:set list` - display invisible characters
 
 
 Plugins
