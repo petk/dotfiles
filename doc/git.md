@@ -19,3 +19,6 @@ Use `git config --help` for more detailed explanation. Here are some customized 
 `core.editor` - defines default editor for editing files  
 `core.pager` - defines pager  
 `push.default` - defines action git push should take  
+`diff.tool` - defines tool for editing diff  
+`difftool.prompt` - defines if prompted for opening default diff editor  
+
