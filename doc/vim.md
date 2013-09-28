@@ -18,7 +18,6 @@ Used plugins
 * [nerdtree](https://github.com/scrooloose/nerdtree): a Tree explorer for Vim
 * [vim-surround](https://github.com/tpope/vim-surround): quoting/parenthesizing made simple
 * [ctrlp.vim](https://github.com/kien/ctrlp.vim): fuzzy file, buffer, mru, tag, etc finder
-* [snipmate.vim](https://github.com/msanders/snipmate.vim): snippets features
 * [emmet-vim](https://github.com/mattn/emmet-vim): Vim's essential toolkit for web-developers
 * [syntastic](https://github.com/scrooloose/syntastic): Syntax checking
 * [vim-fugitive](https://github.com/tpope/vim-fugitive): a Git wrapper
