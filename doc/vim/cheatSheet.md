@@ -296,3 +296,7 @@ Cheat sheet:
 
 * [Official documentation](https://github.com/scrooloose/nerdtree/)
 
+### Snipmate
+
+* [Official documentation](https://github.com/msanders/snipmate.vim)
+
