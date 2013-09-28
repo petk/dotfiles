@@ -19,6 +19,7 @@ Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-rails'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/nerdtree'
+Bundle 'msanders/snipmate.vim'
 Bundle 'tpope/vim-surround'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-markdown'
@@ -31,7 +32,6 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
 Bundle 'tobyS/vmustache'
 Bundle 'tobyS/pdv'
-Bundle 'SirVer/ultisnips'
 Bundle 'stephpy/vim-php-cs-fixer'
 
 syntax on
@@ -143,4 +143,5 @@ let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
 " PHP documenter script bound to Control-P
 autocmd FileType php inoremap <C-p> <ESC>:call pdv#DocumentWithSnip()<CR>i
 autocmd FileType php nnoremap <C-p> :call pdv#DocumentWithSnip()<CR>
-autocmd FileType php vnoremap <C-p> :call pdv#DocumentWithSnip()<CR> 
+autocmd FileType php vnoremap <C-p> :call pdv#DocumentWithSnip()<CR>
+

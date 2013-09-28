@@ -296,7 +296,7 @@ Cheat sheet:
 
 * [Official documentation](https://github.com/scrooloose/nerdtree/)
 
-### UltiSnips
+### snipMate
 
-* [Official documentation](https://github.com/SirVer/ultisnips)
+* [Official documentation](https://github.com/msanders/snipmate.vim)
 

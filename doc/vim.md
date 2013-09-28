@@ -16,6 +16,7 @@ Used plugins
 * [vundle](https://github.com/gmarik/vundle): the plug-in manager for Vim
 * [vim-rails](https://github.com/tpope/vim-rails): Ruby on Rails power tools
 * [nerdtree](https://github.com/scrooloose/nerdtree): a Tree explorer for Vim
+* [snipmate.vim](https://github.com/msanders/snipmate.vim): TextMate's snippets feature for Vim
 * [vim-surround](https://github.com/tpope/vim-surround): quoting/parenthesizing made simple
 * [ctrlp.vim](https://github.com/kien/ctrlp.vim): fuzzy file, buffer, mru, tag, etc finder
 * [emmet-vim](https://github.com/mattn/emmet-vim): Vim's essential toolkit for web-developers
@@ -23,7 +24,6 @@ Used plugins
 * [vim-fugitive](https://github.com/tpope/vim-fugitive): a Git wrapper
 * [vim-repeat](https://github.com/tpope/vim-repeat): enable repeating supported plugin maps with "."
 * [vmustache](https://github.com/tobyS/vmustache): Mustache template system for VIMScript
-* [ultisnips](https://github.com/SirVer/ultisnips): implementation of TextMates Snippets for Vim
 * [pdv](https://github.com/tobyS/pdv): PHP Documentor for VIM - Generates PHP docblocks
 * [vim-php-cs-fixer](https://github.com/stephpy/vim-php-cs-fixer): use fabpot/PHP-CS-Fixer
 
