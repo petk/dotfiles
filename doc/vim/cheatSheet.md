@@ -302,5 +302,4 @@ Cheat sheet:
 
 Cheat sheet:
 
-`doc_cp + <tab>` - creates phpdoc block for class
-
+`lic + <tab>` - creates license doc block for php file
