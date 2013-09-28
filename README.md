@@ -3,7 +3,7 @@
 ## About
 
 Dotfiles are a set of files in your \*nix-based home directory to personalize and customize your system.
-set up your $PATH, customize Vim, configure Ruby's IRB, customize zsh behavior and many other things.
+They set up your $PATH, customize Vim, configure Ruby's IRB, customize zsh behavior and many other things.
 These dotfiles are inpired by [holman's dotfiles](https://github.com/holman/dotfiles) and some others.
 
 ## Installation
