@@ -1,18 +1,21 @@
-" .vimrc
+" .vimrc as part of dotfiles
 " Author: Peter Kokot <peterkokot@gmail.com>
-" Source: http://github.com/peterkokot/vim
+" Source: https://github.com/peterkokot/dotfiles
 
 set nocompatible
-filetype off " required!
 
+" required by vundle to work properly
+filetype off
+
+" vundle configuration
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
 
+" required by vundle to work properly
 filetype plugin indent on
 
+" vim's plugins used in this configuration
+Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-rails'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/nerdtree'
