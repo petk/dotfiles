@@ -253,28 +253,46 @@ General
 `:set list` - display invisible characters
 
 
+### Other
+
+`:!mkdir -p new_folder` - creates new folder  
+`:w new_folder/new_file` - creates new file  
+
+
 Plugins
 -------
 
 ### Vim surround
 
-Besides documentation of the [vim-surround](https://github.com/tpope/vim-surround) plugin here is a quick cheat sheet:
+[Official documentation](https://github.com/tpope/vim-surround)
+
+Cheat sheet:
 
 ``cs"'`` changes " delimiters to ' delimiters  
 ``cst"`` adds " delimiters  
 ``ds"`` removes " delimiters  
 ``ysiw]`` adds [] delimiters on word where is cursor currently  
 
+
 ### PDV - PHP Documentor for VIM - Generates PHP docblocks
 
-Besides documentation for the [pdv](https://github.com/tobyS/pdv) plugin here is a quick cheat sheet:
+[Official documentation](https://github.com/tobyS/pdv)
+
+Cheat sheet:
 
 ``CTRL + P`` adds phpdoc blocks  
 
+
 ### Vim-php-cs-fixer
 
-[Official documentation](https://github.com/stephpy/vim-php-cs-fixer/tree/master/doc) has some information on using this plugin
-and here is also quick cheet sheat:
+* [Official documentation](https://github.com/stephpy/vim-php-cs-fixer/tree/master/doc)
+
+Cheat sheet:
 
 ``<leader>pcd`` - use php-cs-fixer for the current file
+
+
+### Nerdtree
+
+* [Official documentation](https://github.com/scrooloose/nerdtree/)
 
