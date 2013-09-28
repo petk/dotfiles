@@ -21,4 +21,5 @@ Use `git config --help` for more detailed explanation. Here are some customized 
 `push.default` - defines action git push should take  
 `diff.tool` - defines tool for editing diff  
 `difftool.prompt` - defines if prompted for opening default diff editor  
+`credential.helper` - defines helper for passwords and usernames, cache for instance stores passwords for 15 min  
 
