@@ -16,7 +16,9 @@ Used plugins
 * [vundle](https://github.com/gmarik/vundle): the plug-in manager for Vim
 * [vim-rails](https://github.com/tpope/vim-rails): Ruby on Rails power tools
 * [nerdtree](https://github.com/scrooloose/nerdtree): a Tree explorer for Vim
-* [snipmate.vim](https://github.com/msanders/snipmate.vim): TextMate's snippets feature for Vim
+* [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils): interpret a file by function and cache file automatically
+* [tlib_vim](https://github.com/tomtom/tlib_vim): Some utility functions for Vim
+* [vim-snipmate](https://github.com/garbas/vim-snipmate): TextMate's snippets feature for Vim (improved version of snipmate.vim)
 * [vim-surround](https://github.com/tpope/vim-surround): quoting/parenthesizing made simple
 * [ctrlp.vim](https://github.com/kien/ctrlp.vim): fuzzy file, buffer, mru, tag, etc finder
 * [emmet-vim](https://github.com/mattn/emmet-vim): Vim's essential toolkit for web-developers
