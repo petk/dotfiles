@@ -44,3 +44,5 @@ Documentation for using these dotfiles can be found in the [doc](doc) folder. Co
 ## License
 
 This repository is released under the [MIT license](LICENSE).
+
+![Peter's dotfiles](linux.png "Peter's dotfiles")
