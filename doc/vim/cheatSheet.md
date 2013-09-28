@@ -300,3 +300,7 @@ Cheat sheet:
 
 * [Official documentation](https://github.com/msanders/snipmate.vim)
 
+Cheat sheet:
+
+`doc_cp + <tab>` - creates phpdoc block for class
+
