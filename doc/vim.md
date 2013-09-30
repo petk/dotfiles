@@ -18,7 +18,6 @@ Used plugins
 * [nerdtree](https://github.com/scrooloose/nerdtree): a Tree explorer for Vim
 * [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils): interpret a file by function and cache file automatically
 * [tlib_vim](https://github.com/tomtom/tlib_vim): Some utility functions for Vim
-* [vim-snipmate](https://github.com/garbas/vim-snipmate): TextMate's snippets feature for Vim (improved version of snipmate.vim)
 * [vim-surround](https://github.com/tpope/vim-surround): quoting/parenthesizing made simple
 * [ctrlp.vim](https://github.com/kien/ctrlp.vim): fuzzy file, buffer, mru, tag, etc finder
 * [emmet-vim](https://github.com/mattn/emmet-vim): Vim's essential toolkit for web-developers
@@ -28,6 +27,7 @@ Used plugins
 * [vmustache](https://github.com/tobyS/vmustache): Mustache template system for VIMScript
 * [pdv](https://github.com/tobyS/pdv): PHP Documentor for VIM - Generates PHP docblocks
 * [vim-php-cs-fixer](https://github.com/stephpy/vim-php-cs-fixer): use fabpot/PHP-CS-Fixer
+* [ultisnips](https://github.com/SirVer/ultisnips): snippets for Vim
 
 Used color scheme
 -----------------

@@ -11,9 +11,6 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-" required by vundle to work properly
-filetype plugin indent on
-
 " vim's plugins used in this configuration
 Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-rails'
@@ -21,7 +18,6 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/nerdtree'
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
-Bundle 'garbas/vim-snipmate'
 Bundle 'tpope/vim-surround'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-markdown'
@@ -35,6 +31,10 @@ Bundle 'tpope/vim-repeat'
 Bundle 'tobyS/vmustache'
 Bundle 'tobyS/pdv'
 Bundle 'stephpy/vim-php-cs-fixer'
+Bundle 'SirVer/ultisnips'
+
+" required by vundle to work properly
+filetype plugin indent on
 
 syntax on
 if has('gui_running')
