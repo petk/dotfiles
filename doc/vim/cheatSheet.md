@@ -128,6 +128,7 @@ General
 `"xgp` just like "p", but leave the cursor just after the new text  
 `"xgP` just like "P", but leave the cursor just after the new text  
 `:[line]put x` put the text from register x after [line]  
+`<F2>` - paste mode (for large amount of text
 
 
 ### Macros

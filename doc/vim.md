@@ -1,17 +1,13 @@
-Vim runtime configuration and scripts
-=====================================
+# Vim runtime configuration and scripts
 
-
-About
------
+## About
 
 [Vim](http://www.vim.org/) is a highly configurable text editor built to enable efficient text editing.
 It is an improved version of the vi editor distributed with most UNIX systems.
 
 This is an example of extending and configuring Vim to my needs.
 
-Used plugins
-------------
+## Used plugins
 
 * [vundle](https://github.com/gmarik/vundle): the plug-in manager for Vim
 * [vim-rails](https://github.com/tpope/vim-rails): Ruby on Rails power tools
@@ -29,13 +25,11 @@ Used plugins
 * [vim-php-cs-fixer](https://github.com/stephpy/vim-php-cs-fixer): use fabpot/PHP-CS-Fixer
 * [ultisnips](https://github.com/SirVer/ultisnips): snippets for Vim
 
-Used color scheme
------------------
+## Used color scheme
 
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
 
-Used modes
-----------
+## Used modes
 
 Used plugins - modes for syntax highlighting:
 
@@ -43,4 +37,8 @@ Used plugins - modes for syntax highlighting:
 * [vim-markdown](https://github.com/tpope/vim-markdown): Markdown Vim mode
 * [vim-twig](https://github.com/evidens/vim-twig): Twig syntax highlighting
 * [riv.vim](https://github.com/Rykka/riv.vim): reStructructuredText
+
+# Cheat sheet
+
+* [vim cheat sheet](doc/vim/cheatSheet.md)
 
