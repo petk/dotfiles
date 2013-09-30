@@ -1,4 +1,4 @@
-# Peter's dotfiles
+# Peter Kokot's dotfiles
 
 ## About
 
@@ -10,12 +10,12 @@ These dotfiles are inpired by [holman's dotfiles](https://github.com/holman/dotf
 
 ### Prerequisites
 
-* git
-* vim
-* ruby
-* zsh
+* [git](http://git-scm.com)
+* [vim](http://vim.org)
+* [ruby](http://ruby-lang.org)
+* [zsh](http://zsh.org)
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-* wget
+* [wget](http://www.gnu.org/s/wget)
 
 ### Installation
 
