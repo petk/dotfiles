@@ -44,7 +44,13 @@ else
 endif
 set t_Co=16
 let g:solarized_termcolors=256
-colorscheme solarized
+
+try
+    colorscheme solarized
+catch
+    colorscheme default
+endtry
+  
 
 set cursorline cursorcolumn
 set incsearch
