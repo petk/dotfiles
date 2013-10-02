@@ -16,6 +16,7 @@ These dotfiles are inpired by [holman's dotfiles](https://github.com/holman/dotf
 * [zsh](http://zsh.org)
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [wget](http://www.gnu.org/s/wget)
+* [screen](https://www.gnu.org/software/screen/)
 
 ### Installation
 
@@ -40,6 +41,7 @@ Documentation for using these dotfiles can be found in the [doc](doc) folder. Co
 * bash
 * vim custom runtime configuration and scripts
 * wget customization
+* screen customization
 
 ## License
 

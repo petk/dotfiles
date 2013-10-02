@@ -160,3 +160,13 @@ autocmd FileType php inoremap <C-p> <ESC>:call pdv#DocumentWithSnip()<CR>i
 autocmd FileType php nnoremap <C-p> :call pdv#DocumentWithSnip()<CR>
 autocmd FileType php vnoremap <C-p> :call pdv#DocumentWithSnip()<CR>
 
+
+" sets the title of the window to current opened file
+let &titlestring = hostname() . "[vim(" . expand("%:t") . ")]"
+if &term == "screen"
+    set t_ts=^[k
+    set t_fs=^[\
+endif
+if &term == "screen" || &term == "xterm"
+    set title
+endif

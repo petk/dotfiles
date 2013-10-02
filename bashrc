@@ -1,4 +1,7 @@
-# .bashrc
+# .bashrc file as part of dotfiles
+# Author: Peter Kokot <peterkokot@gmail.com>
+# Source: https://github.com/peterkokot/dotfiles
+
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then

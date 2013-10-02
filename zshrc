@@ -1,3 +1,8 @@
+# .zshrc file as part of dotfiles
+# Author: Peter Kokot <peterkokot@gmail.com>
+# Source: https://github.com/peterkokot/dotfiles
+
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
