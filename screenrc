@@ -1,5 +1,12 @@
-# .screenrc
+# .screenrc file as part of dotfiles
+# Author: Peter Kokot <peterkokot@gmail.com>
+# Source: https://github.com/peterkokot/dotfiles
 
+
+altscreen on
+term screen-256color
+bind ',' prev
+bind '.' next
 
 # adds a persistent display at the bottom of screen
 hardstatus alwayslastline "%{=b}%{G} Screen(s): %{b}%w %=%{kG}%C%A  %D, %M/%d/%Y "

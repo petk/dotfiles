@@ -55,3 +55,7 @@ export PATH=$PATH:/home/peter/.rvm/gems/ruby-1.9.3-p448/bin:/home/peter/.rvm/gem
 # set default editor
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
+
+# commands that don't need correction
+alias screen='nocorrect screen'
+
