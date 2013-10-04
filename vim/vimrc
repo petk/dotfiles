@@ -116,6 +116,8 @@ au BufRead,BufNewFile *.json set filetype=json
 """"""""""""""""""""""""""""""""""""""""
 
 command Q q
+command Wq wq
+command WQ wq
 
 
 """"""""""""""""""""""""""""""""""""""""
