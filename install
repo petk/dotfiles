@@ -1,28 +1,51 @@
-#!/bin/sh
+#!/bin/bash
+# install: installation script for dotfiles.
+# Author: Peter Kokot <peterkokot@gmail.com>
+
+is_command(){
+    local command="$1"
+    if ! command_loc="$(type -p "$command")" || [ -z "$command_loc" ]; then
+        return 1
+    else
+        return 0
+    fi
+}
 
 # git
-cp ~/.dotfiles/gitconfig ~/.gitconfig
-echo 'git configuration added'
+if (is_command "git") then
+    cp ~/.dotfiles/gitconfig ~/.gitconfig
+    echo 'git configuration added'
+fi
 
 # VIM
-cp ~/.dotfiles/vim/vimrc ~/.vimrc
-cp -r ~/.dotfiles/vim ~/.vim
-vim +BundleInstall +qall
-echo 'Vim runtime configuration and scripts installed'
+if (is_command "vim") then
+    cp ~/.dotfiles/vim/vimrc ~/.vimrc
+    cp -r ~/.dotfiles/vim ~/.vim
+    vim +BundleInstall +qall
+    echo 'Vim runtime configuration and scripts installed'
+fi
 
 # zsh
-cp ~/.dotfiles/zshrc ~/.zshrc
-echo '.zshrc added'
+if (is_command "zsh" ) then
+    cp ~/.dotfiles/zshrc ~/.zshrc
+    echo '.zshrc added'
+fi
 
 # bash
-cp ~/.dotfiles/bashrc ~/.bashrc
-echo '.bashrc added'
+if (is_command "bash") then
+    cp ~/.dotfiles/bashrc ~/.bashrc
+    echo '.bashrc added'
+fi
 
 # wget
-cp ~/.dotfiles/wgetrc ~/.wgetrc
-echo '.wgetrc added'
+if (is_command "wget") then
+    cp ~/.dotfiles/wgetrc ~/.wgetrc
+    echo '.wgetrc added'
+fi
 
 # screen
-cp ~/.dotfiles/screenrc ~/.screenrc
-echo '.screenrc added'
+if (is_command "screen") then
+    cp ~/.dotfiles/screenrc ~/.screenrc
+    echo '.screenrc added'
+fi
 

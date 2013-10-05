@@ -8,18 +8,6 @@ These dotfiles are inpired by [holman's dotfiles](https://github.com/holman/dotf
 
 ## Installation
 
-### Prerequisites
-
-* [git](http://git-scm.com)
-* [vim](http://vim.org)
-* [ruby](http://ruby-lang.org)
-* [zsh](http://zsh.org)
-* [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-* [wget](http://www.gnu.org/s/wget)
-* [screen](https://www.gnu.org/software/screen/)
-
-### Installation
-
 ```bash
 git clone git://github.com/peterkokot/dotfiles.git --recursive ~/.dotfiles
 .dotfiles/install
@@ -36,12 +24,12 @@ Documentation for using these dotfiles can be found in the [doc](doc) folder. Co
 ## Features
 
 * installation script
-* git configuration
-* Zsh - shell designed for interactive use, also a powerful scripting language - configuration
-* bash
-* vim custom runtime configuration and scripts
-* wget customization
-* screen customization
+* [git](http://git-scm.com) configuration
+* [Zsh](http://zsh.org) - shell designed for interactive use, also a powerful scripting language - configuration
+* bash configuration
+* [Vim](http://vim.org) custom runtime configuration and scripts
+* [wget](http://www.gnu.org/s/wget) customization
+* [screen](https://www.gnu.org/software/screen) customization
 
 ## License
 
