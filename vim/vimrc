@@ -99,16 +99,22 @@ set pastetoggle=<F2>
 " disable folding in markdown files
 let g:vim_markdown_folding_disabled=1
 
+"""""""""""""""""""""""""""""""""""""""""""
+" specific settings for different filetypes
+"""""""""""""""""""""""""""""""""""""""""""
+
 " set highlighting for *.md, *.markdown files
-au BufRead,BufNewFile *.md set filetype=markdown
-au BufRead,BufNewFile *.markdown set filetype=markdown
-au BufRead,BufNewFile *.mdown set filetype=markdown
+au BufRead,BufNewFile *.md,*.markdown,*.mdown set filetype=markdown
 
 " set highlightning for *.html.twig files
 au BufRead,BufNewFile *.html.twig set filetype=html.twig
 
 " set highlightning for *.json files
 au BufRead,BufNewFile *.json set filetype=json
+
+autocmd BufRead,BufNewFile   *.xlf,*.xliff,*.php,*.html,*.twig setlocal shiftwidth=4 tabstop=4
+autocmd BufRead,BufNewFile *.rb setlocal shiftwidth=2 tabstop=2
+autocmd BufRead,BufNewFile *.java set noic cin noexpandtab
 
 
 """"""""""""""""""""""""""""""""""""""""
@@ -173,24 +179,4 @@ if &term == "screen" || &term == "xterm"
     set title
 endif
 
-"""""""""""""""""""""""""""""""""""""
-" set tabs or spaces for certain file
-" types
-"""""""""""""""""""""""""""""""""""""
-
-" xliff
-autocmd FileType xlf setlocal shiftwidth=4 tabstop=4
-autocmd FileType xliff setlocal shiftwidth=4 tabstop=4
-
-" html
-autocmd FileType html setlocal shiftwidth=4 tabstop=4
-
-" twig
-autocmd FileType twig setlocal shiftwidth=4 tabstop=4
-
-" php
-autocmd FileType php setlocal shiftwidth=4 tabstop=4
-
-" ruby
-autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
