@@ -36,7 +36,10 @@ Bundle 'SirVer/ultisnips'
 " required by vundle to work properly
 filetype plugin indent on
 
+" set syntax highlighting on
 syntax on
+
+" set background and colors settings
 if has('gui_running')
     set background=light
 else
@@ -50,7 +53,7 @@ try
 catch
     colorscheme default
 endtry
-  
+
 
 set cursorline cursorcolumn
 set incsearch
@@ -82,9 +85,10 @@ set nobomb
 set termencoding=utf-8
 set fileencodings=utf-8
 
-setlocal expandtab
-setlocal shiftwidth=4
-setlocal softtabstop=4
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 
 set fdm=syntax
 set foldlevelstart=20
@@ -112,9 +116,10 @@ au BufRead,BufNewFile *.html.twig set filetype=html.twig
 " set highlightning for *.json files
 au BufRead,BufNewFile *.json set filetype=json
 
-autocmd BufRead,BufNewFile   *.xlf,*.xliff,*.php,*.html,*.twig setlocal shiftwidth=4 tabstop=4
-autocmd BufRead,BufNewFile *.rb setlocal shiftwidth=2 tabstop=2
-autocmd BufRead,BufNewFile *.java set noic cin noexpandtab
+"autocmd BufRead,BufNewFile   *.xlf,*.xliff,*.php,*.html,*.twig set shiftwidth=4 tabstop=4
+"autocmd BufRead,BufNewFile *.rb setlocal shiftwidth=2 tabstop=2
+"autocmd BufRead,BufNewFile *.java set noic cin noexpandtab
+"au FileType *xlf,*.xliff,*.php,*.html,*.twig setlocal shiftwidth=4 tabstop=4
 
 
 """"""""""""""""""""""""""""""""""""""""
