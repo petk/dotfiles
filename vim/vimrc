@@ -121,6 +121,9 @@ au BufRead,BufNewFile *.json set filetype=json
 "autocmd BufRead,BufNewFile *.java set noic cin noexpandtab
 "au FileType *xlf,*.xliff,*.php,*.html,*.twig setlocal shiftwidth=4 tabstop=4
 
+" set highlightning for *.json files
+au BufRead,BufNewFile *.conf set syntax=dosini
+
 
 """"""""""""""""""""""""""""""""""""""""
 " custom commands
