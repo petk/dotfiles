@@ -187,4 +187,6 @@ if &term == "screen" || &term == "xterm"
     set title
 endif
 
+" wrap lines when in diff mode
+au VimEnter * if &diff | execute 'windo set wrap' | endif
 
