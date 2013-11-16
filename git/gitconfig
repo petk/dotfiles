@@ -11,6 +11,7 @@
 [core]
     editor = vim
     pager = less -R
+    excludesfile = ~/.gitignore
 
 [push]
     default = matching

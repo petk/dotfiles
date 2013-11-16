@@ -13,8 +13,9 @@ is_command(){
 
 # git
 if (is_command "git") then
-    cp ~/.dotfiles/gitconfig ~/.gitconfig
-    echo 'git configuration added'
+    cp ~/.dotfiles/git/gitconfig ~/.gitconfig
+    cp ~/.dotfiles/git/gitignore ~/.gitignore
+    echo 'git configured'
 fi
 
 # VIM
