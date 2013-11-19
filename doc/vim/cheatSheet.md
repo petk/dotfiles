@@ -3,7 +3,7 @@ Vim cheat sheet
 
 Here is a list and collection of some useful Vim commands and plugins used in this configuration.
 
-* General
+* [General](#general)
   * Bookmarks
   * Insert mode
   * Editing
