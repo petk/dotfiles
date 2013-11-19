@@ -28,25 +28,25 @@ fi
 
 # zsh
 if (is_command "zsh" ) then
-    cp ~/.dotfiles/zshrc ~/.zshrc
+    cp ~/.dotfiles/zsh/zshrc ~/.zshrc
     echo '.zshrc added'
 fi
 
 # bash
 if (is_command "bash") then
-    cp ~/.dotfiles/bashrc ~/.bashrc
+    cp ~/.dotfiles/bash/bashrc ~/.bashrc
     echo '.bashrc added'
 fi
 
 # wget
 if (is_command "wget") then
-    cp ~/.dotfiles/wgetrc ~/.wgetrc
+    cp ~/.dotfiles/wget/wgetrc ~/.wgetrc
     echo '.wgetrc added'
 fi
 
 # screen
 if (is_command "screen") then
-    cp ~/.dotfiles/screenrc ~/.screenrc
+    cp ~/.dotfiles/screen/screenrc ~/.screenrc
     echo '.screenrc added'
 fi
 

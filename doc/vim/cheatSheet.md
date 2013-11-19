@@ -1,7 +1,31 @@
 Vim cheat sheet
 ==============
 
-Here is a list and collection of some usefull Vim commands and plugins used in my configuration.
+Here is a list and collection of some useful Vim commands and plugins used in this configuration.
+
+* General
+  * Bookmarks
+  * Insert mode
+  * Editing
+  * Deleting text
+  * Copying and moving text
+  * Macros
+  * Visual mode
+  * Visual mode commands
+  * Spelling
+  * Exiting
+  * Search/replace
+  * Multiple files
+  * Windows
+  * Quickfix window
+  * Programming
+  * Other
+* Plugins
+  * Vim surround
+  * PDV - PHP Documentor for VIM - Generates PHP docblooks
+  * Vim-php-cs-fixer
+  * Nerdtree
+  * ultisnips
 
 General
 -------
@@ -139,7 +163,7 @@ General
 `@:` replay last command  
 
 
-### VISUAL MODE
+### Visual mode
 
 `v` start visual mode, mark lines, then do command (such as y-yank)  
 `V` start linewise visual mode  
