@@ -4,28 +4,28 @@ Vim cheat sheet
 Here is a list and collection of some useful Vim commands and plugins used in this configuration.
 
 * [General](#general)
-  * Bookmarks
-  * Insert mode
-  * Editing
-  * Deleting text
-  * Copying and moving text
-  * Macros
-  * Visual mode
-  * Visual mode commands
-  * Spelling
-  * Exiting
-  * Search/replace
-  * Multiple files
-  * Windows
-  * Quickfix window
-  * Programming
-  * Other
-* Plugins
-  * Vim surround
-  * PDV - PHP Documentor for VIM - Generates PHP docblooks
-  * Vim-php-cs-fixer
-  * Nerdtree
-  * ultisnips
+  * [Bookmarks](#bookmarks)
+  * [Insert mode](#insert-mode)
+  * [Editing](#editing)
+  * [Deleting text](#deleting-text)
+  * [Copying and moving text](#copying-and-moving-text)
+  * [Macros](#macros)
+  * [Visual mode](#visual-mode)
+  * [Visual mode commands](#visual-mode-commands)
+  * [Spelling](#spelling)
+  * [Exiting](#exiting)
+  * [Search/replace](#searchreplace)
+  * [Multiple files](#multiple-files)
+  * [Windows](#windows)
+  * [Quickfix window](#quickfix-window)
+  * [Programming](#programming)
+  * [Other](#other)
+* [Plugins](#plugins)
+  * [Vim surround](#vim-surround)
+  * [PDV](#pdv)
+  * [Vim-php-cs-fixer](#vim-php-cs-fixer)
+  * [Nerdtree](#nerdtree)
+  * [ultisnips](#ultisnips)
 
 General
 -------
@@ -299,7 +299,9 @@ Cheat sheet:
 ``ysiw]`` adds [] delimiters on word where is cursor currently  
 
 
-### PDV - PHP Documentor for VIM - Generates PHP docblocks
+### PDV
+
+PHP Documentor for VIM - Generates PHP docblocks
 
 [Official documentation](https://github.com/tobyS/pdv)
 
