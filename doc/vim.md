@@ -40,5 +40,5 @@ Used plugins - modes for syntax highlighting:
 
 # Cheat sheet
 
-* [vim cheat sheet](doc/vim/cheatSheet.md)
+* [vim cheat sheet](vim/cheatSheet.md)
 
