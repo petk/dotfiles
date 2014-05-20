@@ -50,3 +50,14 @@ if (is_command "screen") then
     echo '.screenrc added'
 fi
 
+# phpbrew configuration - must be done after zsh or bash configuration
+if (is_command "phpbrew") then
+    if (is_command "zsh") then
+        echo "source ~/.phpbrew/bashrc" >> ~/.zshrc
+        echo 'phpbrew configured'
+    elif (is_command "bash") then
+        echo "source ~/.phpbrew/bashrc" >> ~/.bashrc
+        echo 'phpbrew configured'
+    fi
+fi
+
