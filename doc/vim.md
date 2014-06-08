@@ -24,10 +24,13 @@ This is an example of extending and configuring Vim to my needs.
 * [pdv](https://github.com/tobyS/pdv): PHP Documentor for VIM - Generates PHP docblocks
 * [vim-php-cs-fixer](https://github.com/stephpy/vim-php-cs-fixer): use fabpot/PHP-CS-Fixer
 * [ultisnips](https://github.com/SirVer/ultisnips): snippets for Vim
+* [thematic](https://github.com/reedes/vim-thematic): Alter appearance to suit task & environment
+
 
 ## Used color scheme
 
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
+* [vim-github-colorscheme](https://github.com/endel/vim-github-colorscheme)
 
 ## Used modes
 

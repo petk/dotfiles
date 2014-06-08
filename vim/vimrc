@@ -14,7 +14,6 @@ call vundle#rc()
 " vim's plugins used in this configuration
 Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-rails'
-Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/nerdtree'
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
@@ -32,6 +31,9 @@ Bundle 'tobyS/vmustache'
 Bundle 'tobyS/pdv'
 Bundle 'stephpy/vim-php-cs-fixer'
 Bundle 'SirVer/ultisnips'
+Bundle 'reedes/vim-thematic'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'endel/vim-github-colorscheme'
 
 " required by vundle to work properly
 filetype plugin indent on
@@ -39,17 +41,55 @@ filetype plugin indent on
 " set syntax highlighting on
 syntax on
 
-" set background and colors settings
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
-set t_Co=16
+" set colors settings
+set t_Co=256
 let g:solarized_termcolors=256
 
+" thematic configuration
+let g:thematic#defaults = {
+      \ 'typeface': 'Meslo LG L DZ for Powerline',
+      \ 'colorscheme': 'Tomorrow-Night-Bright',
+      \ 'airline-theme': 'jellybeans',
+      \ 'background': 'dark',
+      \ 'font-size': 12,
+      \ 'laststatus': 2,
+      \ }
+
+let g:thematic#themes = {
+    \ 'Tomorrow-Night-Bright' : {},
+    \ 'jellybeans' : {},
+    \ 'solar_dark' : {
+    \     'colorscheme': 'solarized',
+    \     'diff-color-fix': 1,
+    \     'sign-column-color-fix': 1,
+    \ },
+    \ 'solar_lite' : {
+    \     'colorscheme': 'solarized',
+    \     'background': 'light',
+    \     'sign-column-color-fix': 1,
+    \ },
+    \ 'github' : { 'background': 'light' },
+    \ 'pencil' : {
+    \     'colorscheme': 'pencil',
+    \     'background': 'light',
+    \     'font-size': 20,
+    \     'linespace': 8,
+    \     'typeface': 'Cousine',
+    \ },
+    \ 'iawriter' : {
+    \     'colorscheme': 'pencil',
+    \     'background': 'light',
+    \     'columns': 75,
+    \     'font-size': 20,
+    \     'fullscreen': 1,
+    \     'laststatus': 0,
+    \     'linespace': 8,
+    \     'typeface': 'Cousine',
+    \ },
+    \ }
+
 try
-    colorscheme solarized
+    colorscheme github
 catch
     colorscheme default
 endtry
