@@ -47,13 +47,14 @@ let g:solarized_termcolors=256
 
 " thematic configuration
 let g:thematic#defaults = {
-      \ 'typeface': 'Meslo LG L DZ for Powerline',
-      \ 'colorscheme': 'Tomorrow-Night-Bright',
-      \ 'airline-theme': 'jellybeans',
-      \ 'background': 'dark',
-      \ 'font-size': 12,
-      \ 'laststatus': 2,
-      \ }
+    \ 'typeface': 'Meslo LG L DZ for Powerline',
+    \ 'colorscheme': 'Tomorrow-Night-Bright',
+    \ 'airline-theme': 'jellybeans',
+    \ 'background': 'dark',
+    \ 'font-size': 12,
+    \ 'laststatus': 2,
+    \ 'ruler': 1,
+    \ }
 
 let g:thematic#themes = {
     \ 'Tomorrow-Night-Bright' : {},
@@ -96,6 +97,7 @@ endtry
 
 
 set cursorline cursorcolumn
+hi CursorLine term=bold cterm=bold guibg=Grey40
 set incsearch
 set hlsearch
 set number
@@ -104,7 +106,6 @@ set mouse=a
 set guioptions-=m
 set guioptions-=T
 set guioptions-=r
-set ruler
 
 " Shortcut to rapidly toggle `set list`
 nmap ,l :set list!
@@ -114,7 +115,7 @@ set listchars=tab:▸\ ,eol:¬
 " always show status bar
 set laststatus=2
 
-" show file encoding in status bar
+" sets status line, example [utf-8] 118,27  51%
 if has("statusline")
     set statusline=%<%f\ %h%m%r%=%{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%k\ %-14.(%l,%c%V%)\ %P
 endif
