@@ -25,7 +25,7 @@ This is an example of extending and configuring Vim to my needs.
 * [vim-php-cs-fixer](https://github.com/stephpy/vim-php-cs-fixer): use fabpot/PHP-CS-Fixer
 * [ultisnips](https://github.com/SirVer/ultisnips): snippets for Vim
 * [thematic](https://github.com/reedes/vim-thematic): Alter appearance to suit task & environment
-
+* [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace): Better whitespace highlighting for Vim
 
 ## Used color scheme
 

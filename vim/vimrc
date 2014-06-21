@@ -34,6 +34,7 @@ Bundle 'SirVer/ultisnips'
 Bundle 'reedes/vim-thematic'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'endel/vim-github-colorscheme'
+Bundle 'ntpeters/vim-better-whitespace'
 
 " required by vundle to work properly
 filetype plugin indent on
@@ -201,10 +202,6 @@ endfunction
 " ctrlp.vim
 """""""""""""""""""""""""""""""""""""""
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-
-"Highlight potentially unwanted whitespace
-highlight BadWhitespace term=standout ctermbg=red guibg=red
-match BadWhitespace /[^* \t]\zs\s\+$\| \+\ze\t/
 
 
 """"""""""""""""""""""""""""""""""""""
