@@ -4,7 +4,7 @@ Vim cheat sheet
 Here is a list and collection of some useful Vim commands and plugins used in this configuration.
 
 * [General](#general)
-  * [Cursor movement](#cursor-movement)
+  * [Motion](#motion)
   * [Bookmarks](#bookmarks)
   * [Insert mode](#insert-mode)
   * [Editing](#editing)
@@ -31,7 +31,7 @@ Here is a list and collection of some useful Vim commands and plugins used in th
 General
 -------
 
-### Cursor movement
+### Motion
 
 `h` move left  
 `j` move down  
@@ -71,7 +71,22 @@ General
 `Fx` search line backward for 'x'  
 `tx` search line forward before 'x'  
 `Tx` search line backward before 'x'  
-
+`z` z-carriage return makes the current line the top line on the page  
+`nz` makes the line n the top line on the page  
+`zz` makes the current line the middle line on the page  
+`zt` makes the current line the top of the screen  
+`zb` makes the current line the bottom of the screen  
+`nz.` makes the line n the middle line on the page  
+`z-` makes the current line the bottom line on the page  
+`nz-` makes the line n the bottom line on the page  
+`%`  move to associated ( ), { }, [ ]  
+`CTRL-e`  Moves screen up one line  
+`CTRL-y`  Moves screen down one line  
+`CTRL-u`  Moves screen up ½ page  
+`CTRL-d`  Moves screen down ½ page  
+`CTRL-b`  Moves screen up one page  
+`CTRL-f`  Moves screen down one page  
+`CTRL-I`  Redraws screen  
 
 ### Bookmarks
 
