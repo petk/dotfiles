@@ -4,6 +4,7 @@ Vim cheat sheet
 Here is a list and collection of some useful Vim commands and plugins used in this configuration.
 
 * [General](#general)
+  * [Cursor movement](#cursor-movement)
   * [Bookmarks](#bookmarks)
   * [Insert mode](#insert-mode)
   * [Editing](#editing)
