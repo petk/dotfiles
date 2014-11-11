@@ -20,7 +20,6 @@ fi
 
 # VIM
 if (is_command "vim") then
-    cp ~/.dotfiles/vim/vimrc ~/.vimrc
     cp -r ~/.dotfiles/vim ~/.vim
     vim +BundleInstall +qall
     echo 'Vim runtime configuration and scripts installed'

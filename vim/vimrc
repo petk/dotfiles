@@ -99,7 +99,7 @@ endtry
 " fast terminal
 set ttyfast
 " scroll 3 lines
-set ttyscroll 3
+set ttyscroll=3
 " no screen redrawing by default
 set lazyredraw
 set cursorline cursorcolumn

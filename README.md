@@ -31,6 +31,10 @@ Documentation for using these dotfiles can be found in the [doc](doc) folder. Co
 * [wget](http://www.gnu.org/s/wget) customization
 * [screen](https://www.gnu.org/software/screen) customization
 
+## Requirements
+
+* Vim 7.4
+
 ## License
 
 This repository is released under the [MIT license](LICENSE).
