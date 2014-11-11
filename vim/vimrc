@@ -96,7 +96,12 @@ catch
     colorscheme default
 endtry
 
-
+" fast terminal
+set ttyfast
+" scroll 3 lines
+set ttyscroll 3
+" no screen redrawing by default
+set lazyredraw
 set cursorline cursorcolumn
 hi CursorLine term=bold cterm=bold guibg=Grey40
 set incsearch
