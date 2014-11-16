@@ -181,6 +181,23 @@ command Wq wq
 command WQ wq
 
 
+" Make the 81st column stand out
+autocmd BufEnter * highlight ColorColumn ctermbg=201 guibg=#ff00ff
+autocmd BufEnter * match ColorColumn /\%81v/
+autocmd BufEnter * let w:long_line_match = 1
+
+fu! LongLineHighlightToggle()
+    highlight ColorColumn ctermbg=201 guibg=#ff00ff
+    if exists('w:long_line_match')
+        match ColorColumn //
+        unlet w:long_line_match
+    else
+        match ColorColumn /\%81v/
+        let w:long_line_match = 1
+    endif
+endfunction
+map <Leader>l :call LongLineHighlightToggle()<CR>
+
 """"""""""""""""""""""""""""""""""""""""
 " NERDTree
 """"""""""""""""""""""""""""""""""""""""

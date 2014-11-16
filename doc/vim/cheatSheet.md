@@ -299,6 +299,8 @@ General
 `:!mkdir -p new_folder` - creates new folder  
 `:w new_folder/new_file` - creates new file  
 `,l` - show hidden characters or hides them (same as `:set list`  
+`<leader>l` - custom switch between highliting long lines (more than 80 columns)
+
 
 Plugins
 -------
