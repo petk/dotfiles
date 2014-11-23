@@ -12,7 +12,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " vim's plugins used in this configuration
-Bundle 'gmarik/vundle'
+Bundle 'gmarik/Vundle.vim'
 Bundle 'tpope/vim-rails'
 Bundle 'scrooloose/nerdtree'
 Bundle "MarcWeber/vim-addon-mw-utils"
@@ -25,6 +25,7 @@ Bundle 'elzr/vim-json'
 Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'Rykka/riv.vim'
+Bundle 'Rykka/clickable.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
 Bundle 'tobyS/vmustache'
