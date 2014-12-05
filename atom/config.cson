@@ -1,0 +1,11 @@
+'global':
+  'welcome':
+    'showOnStartup': false
+  'editor':
+    'fontSize': 15
+    'invisibles': {}
+  'core':
+    'themes': [
+      'atom-dark-ui'
+      'atom-light-syntax'
+    ]

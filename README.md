@@ -20,6 +20,7 @@ Documentation for using these dotfiles can be found in the [doc](doc) folder. Co
 * [Vim](doc/vim.md)
 * [Vim cheat sheet](doc/vim/cheatSheet.md)
 * [Git](doc/git.md)
+* [Atom](doc/atom.md)
 
 ## Features
 
@@ -30,6 +31,7 @@ Documentation for using these dotfiles can be found in the [doc](doc) folder. Co
 * [Vim](http://vim.org) custom runtime configuration and scripts
 * [wget](http://www.gnu.org/s/wget) customization
 * [screen](https://www.gnu.org/software/screen) customization
+* [Atom](https://atom.io) custom runtime configuration
 
 ## Requirements
 
