@@ -3,6 +3,7 @@
     'showOnStartup': false
   'editor':
     'fontSize': 15
+    'softwrap': true
     'invisibles': {}
   'core':
     'themes': [
