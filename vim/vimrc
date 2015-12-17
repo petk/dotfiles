@@ -8,34 +8,37 @@ set nocompatible
 filetype off
 
 " vundle configuration
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
 " vim's plugins used in this configuration
-Bundle 'gmarik/Vundle.vim'
-Bundle 'tpope/vim-rails'
-Bundle 'scrooloose/nerdtree'
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle 'tpope/vim-surround'
-Bundle 'kien/ctrlp.vim'
-Bundle 'tpope/vim-markdown'
-Bundle 'evidens/vim-twig'
-Bundle 'elzr/vim-json'
-Bundle 'mattn/emmet-vim'
-Bundle 'scrooloose/syntastic'
-Bundle 'Rykka/riv.vim'
-Bundle 'Rykka/clickable.vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-repeat'
-Bundle 'tobyS/vmustache'
-Bundle 'tobyS/pdv'
-Bundle 'stephpy/vim-php-cs-fixer'
-Bundle 'SirVer/ultisnips'
-Bundle 'reedes/vim-thematic'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'endel/vim-github-colorscheme'
-Bundle 'ntpeters/vim-better-whitespace'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-rails'
+Plugin 'scrooloose/nerdtree'
+Plugin "MarcWeber/vim-addon-mw-utils"
+Plugin "tomtom/tlib_vim"
+Plugin 'tpope/vim-surround'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-markdown'
+Plugin 'evidens/vim-twig'
+Plugin 'elzr/vim-json'
+Plugin 'mattn/emmet-vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'Rykka/riv.vim'
+Plugin 'Rykka/clickable.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-repeat'
+Plugin 'tobyS/vmustache'
+Plugin 'tobyS/pdv'
+Plugin 'stephpy/vim-php-cs-fixer'
+Plugin 'SirVer/ultisnips'
+Plugin 'reedes/vim-thematic'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'endel/vim-github-colorscheme'
+Plugin 'ntpeters/vim-better-whitespace'
+
+" Vundle finishing up
+call vundle#end()
 
 " required by vundle to work properly
 filetype plugin indent on
