@@ -21,6 +21,7 @@ Documentation for using these dotfiles can be found in the [doc](doc) folder. Co
 * [Vim cheat sheet](doc/vim/cheatSheet.md)
 * [Git](doc/git.md)
 * [Atom](doc/atom.md)
+* [tmux](doc/tmux.md)
 
 ## Features
 

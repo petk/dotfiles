@@ -65,3 +65,9 @@ if (is_command "atom") then
     cp -r ~/.dotfiles/atom ~/.atom
     echo "Atom runtime configuration installed"
 fi
+
+# tmux
+if (is_command "tmux") then
+    cp -r ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
+    echo "tmux configuration installed"
+fi
