@@ -1,12 +1,44 @@
-'global':
-  'welcome':
-    'showOnStartup': false
-  'editor':
-    'fontSize': 15
-    'softwrap': true
-    'invisibles': {}
-  'core':
-    'themes': [
-      'atom-dark-ui'
-      'atom-light-syntax'
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "1a3532cc-8a5a-4b21-a5d6-ca6b2034e089"
+    php: {}
+  core:
+    disabledPackages: [
+      "tablr"
     ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    invisibles: {}
+    softWrap: true
+  "exception-reporting":
+    userId: "c8517dd5-86a2-483a-09f6-9f93c5e75f28"
+  "git-status": {}
+  "markdown-themeable-pdf":
+    enableLinkify: true
+    imageQuality: 100
+    openPdfInAtomWorkspace: false
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "one-dark-ui": {}
+  "php-cs-fixer":
+    executablePath: "/usr/local/bin/php-cs-fixer"
+    phpExecutablePath: "/usr/bin/php"
+    showInfoNotifications: true
+  tablr:
+    csvEditor: {}
+    tableEditor: {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+".html.php.text":
+  editor:
+    softWrap: false
+    tabLength: 4

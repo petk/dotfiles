@@ -60,10 +60,12 @@ if (is_command "phpbrew") then
     fi
 fi
 
-# atom
+# Atom
 if (is_command "atom") then
-    cp -r ~/.dotfiles/atom ~/.atom
+    cp -r ~/.dotfiles/atom/* ~/.atom/
     echo "Atom runtime configuration installed"
+    apm install --packages-file ~/.atom/packages.list
+    echo "Atom packages installed"
 fi
 
 # tmux
