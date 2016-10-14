@@ -24,6 +24,7 @@
     executablePath: "/usr/local/bin/php-cs-fixer"
     phpExecutablePath: "/usr/bin/php"
     showInfoNotifications: true
+  "remote-atom": {}
   tablr:
     csvEditor: {}
     tableEditor: {}
