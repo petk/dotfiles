@@ -1,0 +1,10 @@
+#!/bin/bash
+# sync: synchronization script for dotfiles.
+# Author: Peter Kokot <peterkokot@gmail.com>
+
+# Sync Atom packages list
+apm list --installed --bare > atom/packages.list
+echo 'Atom packages list updated'
+
+cp ~/.atom/config.cson atom/config.cson
+echo 'Atom configuration updated'

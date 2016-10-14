@@ -4,19 +4,12 @@
       _analyticsUserId: "1a3532cc-8a5a-4b21-a5d6-ca6b2034e089"
     php: {}
   core:
-    disabledPackages: [
-      "tablr"
-    ]
-    telemetryConsent: "limited"
-    themes: [
-      "atom-dark-ui"
-      "solarized-dark-syntax"
-    ]
+    telemetryConsent: "no"
   editor:
     invisibles: {}
     softWrap: true
   "exception-reporting":
-    userId: "c8517dd5-86a2-483a-09f6-9f93c5e75f28"
+    userId: "e5341e5b-d1a1-9d1d-ec26-ce99850cffce"
   "git-status": {}
   "markdown-themeable-pdf":
     enableLinkify: true

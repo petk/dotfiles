@@ -25,6 +25,15 @@ Contents:
 * [Atom](doc/atom.md)
 * [tmux](doc/tmux.md)
 
+## Keeping configuration files in sync
+
+To copy dotfiles from the current system run the `sync` script from the repository
+directory:
+
+```bash
+./sync
+```
+
 ## Features
 
 * Installation script

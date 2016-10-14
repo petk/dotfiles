@@ -2,6 +2,7 @@ atom-autocomplete-php@0.19.4
 atom-beautify@0.29.13
 atom-minify@0.7.5
 ctrl-dir-scroll@0.2.2
+editorconfig@1.4.1
 git-status@0.3.4
 highlight-selected@0.11.2
 hyperclick@0.0.39
@@ -16,7 +17,7 @@ minimap-highlight-selected@4.4.0
 php-hyperclick@1.0.0
 php-server@0.7.0
 php-twig@4.0.0
-project-manager@3.2.3
+project-manager@3.2.4
 split-diff@1.0.5
 tablr@1.5.5
 todo-show@1.7.0
