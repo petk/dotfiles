@@ -2,9 +2,11 @@
 # sync: synchronization script for dotfiles.
 # Author: Peter Kokot <peterkokot@gmail.com>
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 # Sync Atom packages list
-apm list --installed --bare > atom/packages.list
+apm list --installed --bare > $DIR/atom/packages.list
 echo 'Atom packages list updated'
 
-cp ~/.atom/config.cson atom/config.cson
+cp ~/.atom/config.cson $DIR/atom/config.cson
 echo 'Atom configuration updated'

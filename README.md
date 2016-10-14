@@ -10,8 +10,8 @@ IRB, customize zsh behavior and many other things. These dotfiles are inpired by
 ## Installation
 
 ```bash
-git clone git://github.com/peterkokot/dotfiles.git --recursive ~/dotfiles
-dotfiles/install
+git clone git://github.com/peterkokot/dotfiles.git --recursive
+./dotfiles/install
 ```
 
 ## Documentation
@@ -31,7 +31,7 @@ To copy dotfiles from the current system run the `sync` script from the reposito
 directory:
 
 ```bash
-./sync
+./dotfiles/sync
 ```
 
 ## Features

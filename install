@@ -11,41 +11,43 @@ is_command(){
     fi
 }
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 # git
 if (is_command "git") then
-    cp ~/.dotfiles/git/gitconfig ~/.gitconfig
-    cp ~/.dotfiles/git/gitignore ~/.gitignore
+    cp $DIR/git/gitconfig ~/.gitconfig
+    cp $DIR/git/gitignore ~/.gitignore
     echo 'git configured'
 fi
 
 # VIM
 if (is_command "vim") then
-    cp -r ~/.dotfiles/vim ~/.vim
+    cp -r $DIR/vim ~/.vim
     vim +PluginInstall +qall
     echo 'Vim runtime configuration and plugins installed'
 fi
 
 # zsh
 if (is_command "zsh" ) then
-    cp ~/.dotfiles/zsh/zshrc ~/.zshrc
+    cp $DIR/zsh/zshrc ~/.zshrc
     echo '.zshrc added'
 fi
 
 # bash
 if (is_command "bash") then
-    cp ~/.dotfiles/bash/bashrc ~/.bashrc
+    cp $DIR/bash/bashrc ~/.bashrc
     echo '.bashrc added'
 fi
 
 # wget
 if (is_command "wget") then
-    cp ~/.dotfiles/wget/wgetrc ~/.wgetrc
+    cp $DIR/wget/wgetrc ~/.wgetrc
     echo '.wgetrc added'
 fi
 
 # screen
 if (is_command "screen") then
-    cp ~/.dotfiles/screen/screenrc ~/.screenrc
+    cp $DIR/screen/screenrc ~/.screenrc
     echo '.screenrc added'
 fi
 
@@ -62,14 +64,14 @@ fi
 
 # Atom
 if (is_command "atom") then
-    cp -r ~/.dotfiles/atom/* ~/.atom/
+    cp -r $DIR/atom/* ~/.atom/
     echo "Atom runtime configuration installed"
-    apm install --packages-file ~/.atom/packages.list
+    apm install --packages-file $DIR/atom/packages.list
     echo "Atom packages installed"
 fi
 
 # tmux
 if (is_command "tmux") then
-    cp -r ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
+    cp -r $DIR/tmux/tmux.conf ~/.tmux.conf
     echo "tmux configuration installed"
 fi
