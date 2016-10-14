@@ -2,20 +2,22 @@
 
 ## About
 
-Dotfiles are a set of files in your \*nix-based home directory to personalize and customize your system.
-They set up your $PATH, customize Vim, configure Ruby's IRB, customize zsh behavior and many other things.
-These dotfiles are inpired by [holman's dotfiles](https://github.com/holman/dotfiles) and some others.
+Dotfiles are a set of files in your \*nix-based home directory to personalize and
+customize your system. They set up your `$PATH`, customize Vim, configure Ruby's
+IRB, customize zsh behavior and many other things. These dotfiles are inpired by
+[holman's dotfiles](https://github.com/holman/dotfiles) and [others](http://dotfiles.github.io/).
 
 ## Installation
 
 ```bash
-git clone git://github.com/peterkokot/dotfiles.git --recursive ~/.dotfiles
-.dotfiles/install
+git clone git://github.com/peterkokot/dotfiles.git --recursive ~/dotfiles
+dotfiles/install
 ```
 
 ## Documentation
 
-Documentation for using these dotfiles can be found in the [doc](doc) folder. Contents:
+Documentation for using these dotfiles can be found in the [doc](doc) folder.
+Contents:
 
 * [Vim](doc/vim.md)
 * [Vim cheat sheet](doc/vim/cheatSheet.md)
@@ -25,10 +27,10 @@ Documentation for using these dotfiles can be found in the [doc](doc) folder. Co
 
 ## Features
 
-* installation script
+* Installation script
 * [git](http://git-scm.com) configuration
 * [Zsh](http://zsh.org) - shell designed for interactive use, also a powerful scripting language - configuration
-* bash configuration
+* Bash configuration
 * [Vim](http://vim.org) custom runtime configuration and scripts
 * [wget](http://www.gnu.org/s/wget) customization
 * [screen](https://www.gnu.org/software/screen) customization
@@ -38,8 +40,10 @@ Documentation for using these dotfiles can be found in the [doc](doc) folder. Co
 
 * Vim 7.4
 
-## License
+## Contributing and License
 
-This repository is released under the [MIT license](LICENSE).
+Questions, issue reports and additional contributions to this repository are
+most [welcome](CONTRIBUTING.md). This repository is released under the
+[MIT license](LICENSE).
 
 ![Peter's dotfiles](linux.png "Peter's dotfiles")
