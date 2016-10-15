@@ -3,6 +3,7 @@ atom-beautify@0.29.13
 atom-minify@0.7.5
 ctrl-dir-scroll@0.2.2
 editorconfig@1.4.1
+file-icons@1.7.22
 highlight-selected@0.11.2
 hyperclick@0.0.39
 language-docker@1.1.7
