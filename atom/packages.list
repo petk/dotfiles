@@ -15,7 +15,8 @@ markdown-preview-plus@2.4.0
 markdown-themeable-pdf@1.2.0
 minimap@4.25.0
 minimap-highlight-selected@4.4.0
-php-hyperclick@1.0.0
+open-recent@5.0.0
+php-hyperclick@1.0.1
 php-server@0.7.0
 php-twig@4.0.0
 project-manager@3.2.4
