@@ -6,11 +6,16 @@
   core:
     telemetryConsent: "no"
   editor:
+    atomicSoftTabs: false
     invisibles: {}
+    showIndentGuide: true
     softWrap: true
   "exception-reporting":
     userId: "e5341e5b-d1a1-9d1d-ec26-ce99850cffce"
   "git-status": {}
+  linter: {}
+  "markdown-preview-plus":
+    useGitHubStyle: true
   "markdown-themeable-pdf":
     enableLinkify: true
     imageQuality: 100
