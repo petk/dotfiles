@@ -4,6 +4,9 @@
       _analyticsUserId: "1a3532cc-8a5a-4b21-a5d6-ca6b2034e089"
     php: {}
   core:
+    disabledPackages: [
+      "php-integrator-autocomplete-plus"
+    ]
     telemetryConsent: "no"
   editor:
     atomicSoftTabs: false
@@ -29,6 +32,10 @@
     executablePath: "/usr/local/bin/php-cs-fixer"
     phpExecutablePath: "/usr/bin/php"
     showInfoNotifications: true
+  "php-integrator-base": {}
+  "php-integrator-navigation":
+    navigationRequireAltKey: false
+    navigationRequireShiftKey: true
   "remote-atom": {}
   tablr:
     csvEditor: {}
