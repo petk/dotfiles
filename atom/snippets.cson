@@ -1,0 +1,13 @@
+'.source.php':
+  '<?php …':
+    'prefix': '<?'
+    'body': '<?php$0'
+  '<?php':
+    'prefix': 'php'
+    'body': 'php$0'
+  'class …':
+    'prefix': 'class'
+    'body': '/**\n * $1\n */\nclass ${2:ClassName} ${3:extends ${4:AnotherClass}}\n{\n\t$5\n\tpublic function ${6:__construct}(${7:$argument})\n\t{\n\t\t${0:// code...}\n\t}\n}\n'
+  'echo "…"':
+    'prefix': 'echo'
+    'body': 'echo \'${1:string}\';$0'

@@ -10,3 +10,6 @@ echo 'Atom packages list updated'
 
 cp ~/.atom/config.cson $DIR/atom/config.cson
 echo 'Atom configuration updated'
+
+cp ~/.atom/snippets.cson $DIR/atom/snippets.cson
+echo 'Atom snippets updated'

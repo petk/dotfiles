@@ -1,7 +1,9 @@
+advanced-open-file@0.16.4
 atom-autocomplete-php@0.19.4
 atom-beautify@0.29.13
 atom-minify@0.7.5
 ctrl-dir-scroll@0.2.2
+docblockr@0.8.7
 editorconfig@1.4.1
 file-icons@1.7.22
 highlight-selected@0.11.2

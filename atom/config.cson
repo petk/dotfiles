@@ -37,13 +37,14 @@
     navigationRequireAltKey: false
     navigationRequireShiftKey: true
   "remote-atom": {}
+  "split-diff": {}
   tablr:
     csvEditor: {}
     tableEditor: {}
   welcome:
     showOnStartup: false
   whitespace:
-    ensureSingleTrailingNewline: false
+    ignoreWhitespaceOnCurrentLine: false
 ".html.php.text":
   editor:
     softWrap: false
