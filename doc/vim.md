@@ -2,12 +2,15 @@
 
 ## About
 
-[Vim](http://www.vim.org/) is a highly configurable text editor built to enable efficient text editing.
-It is an improved version of the vi editor distributed with most UNIX systems.
+[Vim](http://www.vim.org/) is a highly configurable text editor built to enable
+efficient text editing. It is an improved version of the vi editor distributed
+with most UNIX systems.
 
 This is an example of extending and configuring Vim to my needs.
 
-## Used plugins
+## Plugins
+
+These dotfiles use the following Vim plugins:
 
 * [vundle](https://github.com/gmarik/vundle): the plug-in manager for Vim
 * [vim-rails](https://github.com/tpope/vim-rails): Ruby on Rails power tools
@@ -27,13 +30,14 @@ This is an example of extending and configuring Vim to my needs.
 * [thematic](https://github.com/reedes/vim-thematic): Alter appearance to suit task & environment
 * [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace): Better whitespace highlighting for Vim
 * [clickable.vim](https://github.com/Rykka/clickable.vim): Make things clickable, suggested also for riv.vim
+* [editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) - [EditorConfig](http://editorconfig.org/) plugin
 
-## Used color scheme
+## Color Scheme
 
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
 * [vim-github-colorscheme](https://github.com/endel/vim-github-colorscheme)
 
-## Used modes
+## Modes
 
 Used plugins - modes for syntax highlighting:
 
@@ -45,4 +49,3 @@ Used plugins - modes for syntax highlighting:
 # Cheat sheet
 
 * [vim cheat sheet](vim/cheatSheet.md)
-

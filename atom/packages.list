@@ -1,5 +1,4 @@
 advanced-open-file@0.16.4
-atom-autocomplete-php@0.19.4
 atom-beautify@0.29.13
 atom-minify@0.7.5
 ctrl-dir-scroll@0.2.2
@@ -27,7 +26,7 @@ php-integrator-refactoring@1.1.1
 php-integrator-tooltips@1.0.4
 php-server@0.7.0
 php-twig@4.0.0
-project-manager@3.2.4
+project-manager@3.2.5
 remote-atom@1.3.10
 split-diff@1.0.5
 tablr@1.5.5

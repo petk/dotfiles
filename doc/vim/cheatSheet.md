@@ -1,7 +1,7 @@
-Vim cheat sheet
-==============
+# Vim cheat sheet
 
-Here is a list and collection of some useful Vim commands and plugins used in this configuration.
+Here is a list and collection of some useful Vim commands and plugins used in
+this configuration.
 
 * [General](#general)
   * [Motion](#motion)
@@ -28,8 +28,7 @@ Here is a list and collection of some useful Vim commands and plugins used in th
   * [Nerdtree](#nerdtree)
   * [ultisnips](#ultisnips)
 
-General
--------
+## General
 
 ### Motion
 
@@ -96,7 +95,6 @@ General
 `'a` go to the line with bookmark a  
 `` `.`` go to the line that you last edited  
 
-
 ### Insert mode
 
 `i` start insert mode at cursor  
@@ -106,7 +104,6 @@ General
 `o` open (append) blank line below current line  
 `O` open blank line above current line  
 `Esc` exit insert mode
-
 
 ### Editing
 
@@ -138,8 +135,6 @@ General
 `:r !{cmd}` execute {cmd} and insert its standard output below the cursor.  
 `<ctrl-v><tab>` - in insert mode it inserts a tab (or any literal copy of character  
 
-
-
 ### Deleting text
 
 `x` delete current character  
@@ -148,7 +143,6 @@ General
 `dd` delete (cut) a line  
 `D` delete from cursor to end of line  
 `:[range]d` delete [range] lines  
-
 
 ### Copying and moving text
 
@@ -170,14 +164,12 @@ General
 `:[line]put x` put the text from register x after [line]  
 `<F2>` - paste mode (for large amount of text
 
-
 ### Macros
 
 `qa` start recording macro 'a'  
 `q` end recording macro  
 `@a` replay macro 'a'  
 `@:` replay last command  
-
 
 ### Visual mode
 
@@ -203,7 +195,6 @@ General
 `d` delete marked text  
 `~` switch case  
 
-
 ### Spelling
 
 `]s` next misspelled word  
@@ -211,7 +202,6 @@ General
 `zg` add word to wordlist  
 `zug` undo last add word  
 `z=` suggest word  
-
 
 ### Exiting
 
@@ -226,7 +216,6 @@ General
 `ZZ` write current file, if modified, and exit.  
 `ZQ` quit current file and exit (same as ":q!").  
 
-
 ### Search/replace
 
 `/pattern` search for pattern  
@@ -239,7 +228,6 @@ General
 `:%s/old/new/gc` replace all old with new throughout file with confirmation  
 `:argdo %s/old/new/gc | wq` open multiple files and run this command to replace old with new in every file with confirmation, save and quit  
 
-
 ### Multiple files
 
 `:e` filename edit a file in a new buffer  
@@ -250,7 +238,6 @@ General
 `:bd` delete a buffer (close a file)  
 `:b1` show buffer 1  
 `:b vimrc` show buffer whose filename begins with "vimrc"  
-
 
 ### Windows
 
@@ -270,7 +257,6 @@ General
 `CTRL-w =` equal window  
 `CTRL-w o` close other windows  
 
-
 ### Quickfix window
 
 `copen` open quickfix window  
@@ -280,7 +266,6 @@ General
 `clast` display the last error  
 `[count]cn` display [count] next error  
 `[count]cp` display [count] previous error  
-
 
 ### Programming
 
@@ -292,7 +277,6 @@ General
 `CTRL-o` move to previous position you were at  
 `CTRL-i` move to more recent position you were at  
 `:set list` - display invisible characters
-
 
 ### Other
 

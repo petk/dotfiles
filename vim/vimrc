@@ -36,6 +36,7 @@ Plugin 'reedes/vim-thematic'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'endel/vim-github-colorscheme'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'editorconfig/editorconfig-vim'
 
 " Vundle finishing up
 call vundle#end()
