@@ -3,7 +3,7 @@ atom-beautify@0.29.13
 atom-minify@0.7.5
 ctrl-dir-scroll@0.2.2
 docblockr@0.8.7
-editorconfig@1.4.1
+editorconfig@1.5.3
 file-icons@1.7.22
 highlight-selected@0.11.2
 intentions@1.1.2
@@ -13,7 +13,7 @@ language-restructuredtext@1.0.1
 linter@1.11.18
 markdown-preview-plus@2.4.0
 markdown-themeable-pdf@1.2.0
-minimap@4.25.0
+minimap@4.25.5
 minimap-highlight-selected@4.4.0
 open-recent@5.0.0
 php-integrator-annotations@1.0.3
