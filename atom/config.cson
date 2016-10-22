@@ -39,6 +39,18 @@
   tablr:
     csvEditor: {}
     tableEditor: {}
+  "todo-show":
+    findTheseTodos: [
+      "FIXME"
+      "TODO"
+      "CHANGED"
+      "XXX"
+      "IDEA"
+      "HACK"
+      "NOTE"
+      "REVIEW"
+      "@todo"
+    ]
   welcome:
     showOnStartup: false
   whitespace:
