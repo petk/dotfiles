@@ -10,6 +10,7 @@
     invisibles: {}
     showIndentGuide: true
     softWrap: true
+    tabLength: 4
   "exception-reporting":
     userId: "e5341e5b-d1a1-9d1d-ec26-ce99850cffce"
   "git-status": {}
