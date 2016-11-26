@@ -10,7 +10,6 @@
     invisibles: {}
     showIndentGuide: true
     softWrap: true
-    tabLength: 4
   "exception-reporting":
     userId: "e5341e5b-d1a1-9d1d-ec26-ce99850cffce"
   "git-status": {}
@@ -60,3 +59,8 @@
   editor:
     softWrap: false
     tabLength: 4
+".makefile.source":
+  editor:
+    tabLength: 4
+  'tabs-to-spaces':
+    'onSave': 'tabify'
