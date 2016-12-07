@@ -3,7 +3,7 @@ atom-beautify@0.29.13
 atom-minify@0.7.5
 copy-as-rtf@0.9.3
 ctrl-dir-scroll@0.2.2
-docblockr@0.8.7
+docblockr@0.9.1
 editorconfig@2.0.5
 file-icons@1.7.25
 gpp-compiler@3.0.7
@@ -12,7 +12,7 @@ intentions@1.1.2
 language-docker@1.1.7
 language-groovy@0.6.0
 language-ignore@1.5.2
-language-ini@1.16.0
+language-ini@1.17.0
 language-nginx@0.6.2
 language-restructuredtext@1.0.1
 linter@1.11.20
