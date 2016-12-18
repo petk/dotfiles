@@ -21,6 +21,7 @@
     imageQuality: 100
     openPdfInAtomWorkspace: false
   minimap:
+    absoluteMode: true
     plugins:
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
