@@ -15,6 +15,7 @@ These dotfiles use the following Vim plugins:
 * [vundle](https://github.com/gmarik/vundle): the plug-in manager for Vim
 * [vim-rails](https://github.com/tpope/vim-rails): Ruby on Rails power tools
 * [nerdtree](https://github.com/scrooloose/nerdtree): a Tree explorer for Vim
+* [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin): A plugin of NERDTree showing git status
 * [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils): interpret a file by function and cache file automatically
 * [tlib_vim](https://github.com/tomtom/tlib_vim): Some utility functions for Vim
 * [vim-surround](https://github.com/tpope/vim-surround): quoting/parenthesizing made simple
