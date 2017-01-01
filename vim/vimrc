@@ -32,9 +32,7 @@ Plugin 'tobyS/vmustache'
 Plugin 'tobyS/pdv'
 Plugin 'stephpy/vim-php-cs-fixer'
 Plugin 'SirVer/ultisnips'
-Plugin 'reedes/vim-thematic'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'endel/vim-github-colorscheme'
+Plugin 'nanotech/jellybeans.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'editorconfig/editorconfig-vim'
 
@@ -51,55 +49,7 @@ syntax on
 set t_Co=256
 let g:solarized_termcolors=256
 
-" thematic configuration
-let g:thematic#defaults = {
-    \ 'typeface': 'Meslo LG L DZ for Powerline',
-    \ 'colorscheme': 'Tomorrow-Night-Bright',
-    \ 'airline-theme': 'jellybeans',
-    \ 'background': 'dark',
-    \ 'font-size': 12,
-    \ 'laststatus': 2,
-    \ 'ruler': 1,
-    \ }
-
-let g:thematic#themes = {
-    \ 'Tomorrow-Night-Bright' : {},
-    \ 'jellybeans' : {},
-    \ 'solar_dark' : {
-    \     'colorscheme': 'solarized',
-    \     'diff-color-fix': 1,
-    \     'sign-column-color-fix': 1,
-    \ },
-    \ 'solar_lite' : {
-    \     'colorscheme': 'solarized',
-    \     'background': 'light',
-    \     'sign-column-color-fix': 1,
-    \ },
-    \ 'github' : { 'background': 'light' },
-    \ 'pencil' : {
-    \     'colorscheme': 'pencil',
-    \     'background': 'light',
-    \     'font-size': 20,
-    \     'linespace': 8,
-    \     'typeface': 'Cousine',
-    \ },
-    \ 'iawriter' : {
-    \     'colorscheme': 'pencil',
-    \     'background': 'light',
-    \     'columns': 75,
-    \     'font-size': 20,
-    \     'fullscreen': 1,
-    \     'laststatus': 0,
-    \     'linespace': 8,
-    \     'typeface': 'Cousine',
-    \ },
-    \ }
-
-try
-    colorscheme github
-catch
-    colorscheme default
-endtry
+colorscheme jellybeans
 
 " fast terminal
 set ttyfast
@@ -187,21 +137,7 @@ command WQ wq
 
 
 " Make the 81st column stand out
-autocmd BufEnter * highlight ColorColumn ctermbg=201 guibg=#ff00ff
-autocmd BufEnter * match ColorColumn /\%81v/
-autocmd BufEnter * let w:long_line_match = 1
-
-fu! LongLineHighlightToggle()
-    highlight ColorColumn ctermbg=201 guibg=#ff00ff
-    if exists('w:long_line_match')
-        match ColorColumn //
-        unlet w:long_line_match
-    else
-        match ColorColumn /\%81v/
-        let w:long_line_match = 1
-    endif
-endfunction
-map <Leader>l :call LongLineHighlightToggle()<CR>
+set colorcolumn=80
 
 """"""""""""""""""""""""""""""""""""""""
 " NERDTree

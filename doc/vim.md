@@ -27,15 +27,13 @@ These dotfiles use the following Vim plugins:
 * [pdv](https://github.com/tobyS/pdv): PHP Documentor for VIM - Generates PHP docblocks
 * [vim-php-cs-fixer](https://github.com/stephpy/vim-php-cs-fixer): use fabpot/PHP-CS-Fixer
 * [ultisnips](https://github.com/SirVer/ultisnips): snippets for Vim
-* [thematic](https://github.com/reedes/vim-thematic): Alter appearance to suit task & environment
 * [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace): Better whitespace highlighting for Vim
 * [clickable.vim](https://github.com/Rykka/clickable.vim): Make things clickable, suggested also for riv.vim
 * [editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) - [EditorConfig](http://editorconfig.org/) plugin
 
 ## Color Scheme
 
-* [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
-* [vim-github-colorscheme](https://github.com/endel/vim-github-colorscheme)
+* [jellybeans](https://github.com/nanotech/jellybeans.vim)
 
 ## Modes
 
