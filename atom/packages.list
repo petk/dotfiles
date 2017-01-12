@@ -4,10 +4,10 @@ atom-minify@0.8.0
 copy-as-rtf@0.9.3
 ctrl-dir-scroll@0.2.2
 docblockr@0.9.1
-editorconfig@2.1.0
+editorconfig@2.2.0
 file-icons@2.0.8
 gpp-compiler@3.0.7
-highlight-selected@0.11.2
+highlight-selected@0.12.0
 hyperclick@0.0.39
 intentions@1.1.2
 language-docker@1.1.7
@@ -21,8 +21,8 @@ language-supervisor@1.0.4
 linter@1.11.21
 markdown-preview-plus@2.4.0
 markdown-themeable-pdf@1.2.0
-minimap@4.26.5
-minimap-highlight-selected@4.4.0
+minimap@4.26.6
+minimap-highlight-selected@4.5.0
 open-recent@5.0.0
 php-integrator-annotations@1.1.1
 php-integrator-autocomplete-plus@1.2.0
