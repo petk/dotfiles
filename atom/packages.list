@@ -5,10 +5,10 @@ copy-as-rtf@0.9.3
 ctrl-dir-scroll@0.2.2
 docblockr@0.9.1
 editorconfig@2.2.0
-file-icons@2.0.9
+file-icons@2.0.10
 gpp-compiler@3.0.7
 highlight-selected@0.12.0
-hyperclick@0.0.39
+hyperclick@0.0.40
 intentions@1.1.2
 language-docker@1.1.7
 language-generic-config@1.3.0
@@ -21,7 +21,7 @@ language-supervisor@1.0.4
 linter@1.11.21
 markdown-preview-plus@2.4.0
 markdown-themeable-pdf@1.2.0
-minimap@4.26.6
+minimap@4.26.7
 minimap-highlight-selected@4.5.0
 open-recent@5.0.0
 php-integrator-annotations@1.1.1
