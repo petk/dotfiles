@@ -1,6 +1,6 @@
 # .zshrc file as part of dotfiles
 # Author: Peter Kokot <peterkokot@gmail.com>
-# Source: https://github.com/peterkokot/dotfiles
+# Source: https://github.com/petk/dotfiles
 
 
 # Path to your oh-my-zsh configuration.
@@ -59,4 +59,3 @@ export VISUAL=/usr/bin/vim
 
 # commands that don't need correction
 alias screen='nocorrect screen'
-

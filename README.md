@@ -10,7 +10,7 @@ IRB, customize zsh behavior and many other things. These dotfiles are inpired by
 ## Installation
 
 ```bash
-git clone git://github.com/peterkokot/dotfiles.git --recursive
+git clone git://github.com/petk/dotfiles.git --recursive
 ./dotfiles/install
 ```
 

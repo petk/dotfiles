@@ -1,7 +1,7 @@
 # Contribution Guidelines
 
 You are most welcome to suggest improvements, ask question, send pull requests
-or open an [issue](https://github.com/peterkokot/dotfiles/issues).
+or open an [issue](https://github.com/petk/dotfiles/issues).
 
 * Fork this repository over GitHub
 * Set up your local repository
@@ -9,7 +9,7 @@ or open an [issue](https://github.com/peterkokot/dotfiles/issues).
   ```bash
 git clone git@github.com:your_username/dotfiles
 cd dotfiles
-git remote add upstream git://github.com/peterkokot/dotfiles
+git remote add upstream git://github.com/petk/dotfiles
 git config branch.master.remote upstream
 ```
 
