@@ -1,6 +1,7 @@
 advanced-open-file@0.16.5
 atom-beautify@0.29.17
 atom-minify@0.8.0
+atom-typescript@10.1.15
 copy-as-rtf@0.9.3
 ctrl-dir-scroll@0.2.3
 docblockr@0.9.1
