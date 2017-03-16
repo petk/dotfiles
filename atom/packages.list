@@ -1,4 +1,4 @@
-advanced-open-file@0.16.5
+advanced-open-file@0.16.6
 atom-beautify@0.29.17
 atom-minify@0.8.0
 atom-typescript@10.1.15
@@ -16,11 +16,11 @@ language-docker@1.1.7
 language-generic-config@1.3.0
 language-groovy@0.6.0
 language-ignore@1.5.2
-language-ini@1.18.0
+language-ini@1.19.0
 language-nginx@0.6.2
 language-restructuredtext@1.0.2
 language-supervisor@1.0.4
-linter@1.11.23
+linter@2.1.0
 markdown-preview-plus@2.4.9
 markdown-themeable-pdf@1.2.0
 minimap@4.26.8
