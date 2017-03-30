@@ -22,7 +22,7 @@ language-nginx@0.7.0
 language-restructuredtext@1.0.2
 language-supervisor@1.0.4
 linter@2.1.2
-linter-ui-default@1.2.1
+linter-ui-default@1.2.2
 markdown-preview-plus@2.4.9
 markdown-themeable-pdf@1.2.0
 minimap@4.26.8
