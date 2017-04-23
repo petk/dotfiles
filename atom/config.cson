@@ -14,8 +14,7 @@
     userId: "e5341e5b-d1a1-9d1d-ec26-ce99850cffce"
   "git-status": {}
   linter: {}
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "markdown-preview-plus":
     useGitHubStyle: true
   "markdown-themeable-pdf":
