@@ -5,9 +5,9 @@ atom-typescript@11.0.3
 busy-signal@1.4.1
 copy-as-rtf@0.9.3
 ctrl-dir-scroll@0.2.3
-docblockr@0.9.4
+docblockr@0.10.0
 editorconfig@2.2.2
-file-icons@2.1.5
+file-icons@2.1.6
 gpp-compiler@3.0.7
 highlight-selected@0.13.1
 hyperclick@0.0.40
@@ -22,7 +22,7 @@ language-nginx@0.7.3
 language-restructuredtext@1.1.0
 language-supervisor@1.0.4
 linter@2.1.4
-linter-ui-default@1.5.2
+linter-ui-default@1.5.4
 markdown-preview-plus@2.4.9
 markdown-themeable-pdf@1.2.0
 minimap@4.28.2
