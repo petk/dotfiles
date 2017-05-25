@@ -13,7 +13,7 @@ highlight-selected@0.13.1
 hyperclick@0.0.40
 intentions@1.1.2
 language-csv@1.1.2
-language-docker@1.1.7
+language-docker@1.1.8
 language-generic-config@1.3.0
 language-groovy@0.7.0
 language-ignore@1.5.2
