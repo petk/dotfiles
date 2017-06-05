@@ -2,12 +2,12 @@ advanced-open-file@0.16.6
 atom-beautify@0.29.26
 atom-minify@0.8.0
 atom-typescript@11.0.3
-busy-signal@1.4.1
+busy-signal@1.4.3
 copy-as-rtf@0.9.3
 ctrl-dir-scroll@0.2.3
 docblockr@0.10.3
 editorconfig@2.2.2
-file-icons@2.1.6
+file-icons@2.1.7
 gpp-compiler@3.0.7
 highlight-selected@0.13.1
 hyperclick@0.0.40
