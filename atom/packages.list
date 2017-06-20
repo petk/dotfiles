@@ -1,5 +1,5 @@
 advanced-open-file@0.16.6
-atom-beautify@0.29.26
+atom-beautify@0.30.1
 atom-minify@0.8.0
 atom-typescript@11.0.3
 busy-signal@1.4.3
@@ -21,7 +21,7 @@ language-ini@1.19.0
 language-nginx@0.8.0
 language-restructuredtext@1.1.0
 language-supervisor@1.0.4
-linter@2.1.4
+linter@2.2.0
 linter-ui-default@1.6.1
 markdown-preview-plus@2.4.9
 markdown-themeable-pdf@1.2.0
