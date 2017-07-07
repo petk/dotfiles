@@ -1,69 +1,10 @@
 "*":
-  "atom-beautify":
-    general:
-      _analyticsUserId: "1a3532cc-8a5a-4b21-a5d6-ca6b2034e089"
-    php: {}
   core:
     telemetryConsent: "no"
-  editor:
-    atomicSoftTabs: false
-    invisibles: {}
-    showIndentGuide: true
-    softWrap: true
   "exception-reporting":
-    userId: "e5341e5b-d1a1-9d1d-ec26-ce99850cffce"
-  "git-status": {}
-  linter: {}
-  "linter-ui-default":
-    panelHeight: 69
-  "markdown-preview-plus":
-    useGitHubStyle: true
-  "markdown-themeable-pdf":
-    enableLinkify: true
-    imageQuality: 100
-    openPdfInAtomWorkspace: false
+    userId: "811d6cd1-f294-4c59-9cd2-28dbce0754c8"
   minimap:
     plugins:
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
-  "one-dark-ui": {}
-  "php-cs-fixer":
-    executablePath: "/usr/local/bin/php-cs-fixer"
-    phpExecutablePath: "/usr/bin/php"
-    showInfoNotifications: true
-  "php-integrator-base": {}
-  "php-integrator-linter": {}
-  "php-integrator-navigation":
-    navigationRequireAltKey: false
-    navigationRequireShiftKey: true
-  "remote-atom": {}
-  "split-diff": {}
-  tablr:
-    csvEditor: {}
-    tableEditor: {}
-  "todo-show":
-    findTheseTodos: [
-      "FIXME"
-      "TODO"
-      "CHANGED"
-      "XXX"
-      "IDEA"
-      "HACK"
-      "NOTE"
-      "REVIEW"
-      "@todo"
-    ]
-  "tree-view": {}
-  welcome:
-    showOnStartup: false
-  whitespace:
-    ignoreWhitespaceOnCurrentLine: false
-".html.php.text":
-  editor:
-    softWrap: false
-    tabLength: 4
-".makefile.source":
-  editor:
-    tabLength: 4
-  "tabs-to-spaces":
-    onSave: "tabify"
+  "php-integrator-base:confirmed-upgrade-message": true
