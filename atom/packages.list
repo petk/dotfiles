@@ -1,14 +1,11 @@
-advanced-open-file@0.16.6
 atom-beautify@0.30.4
 atom-minify@0.8.0
 atom-typescript@11.0.6
 busy-signal@1.4.3
-copy-as-rtf@0.9.3
 ctrl-dir-scroll@0.2.3
 docblockr@0.11.0
 editorconfig@2.2.2
 file-icons@2.1.9
-gpp-compiler@3.0.7
 highlight-selected@0.13.1
 hyperclick@0.1.2
 intentions@1.1.2
@@ -32,21 +29,13 @@ open-recent@5.0.0
 php-integrator-annotations@1.2.0
 php-integrator-autocomplete-plus@1.6.0
 php-integrator-base@3.0.1
-php-integrator-call-tips@1.2.1
-php-integrator-call-tips-legacy-php56@1.2.3
-php-integrator-linter@1.3.0
-php-integrator-linter-legacy-php56@1.3.1
 php-integrator-navigation@1.2.1
 php-integrator-refactoring@1.4.0
-php-integrator-tooltips@1.1.5
-php-integrator-tooltips-legacy-php56@1.1.6
 php-twig@4.0.0
 project-manager@3.3.5
-remote-atom@1.3.10
 shebang-set-grammar@0.6.0
 sort-lines@0.14.0
 split-diff@1.4.3
 tablr@1.8.3
-tabs-to-spaces@1.0.3
 todo-show@1.11.0
 

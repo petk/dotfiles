@@ -1,19 +1,13 @@
 "*":
-  "atom-beautify":
-    php:
-      standard: "PSR2"
   core:
     telemetryConsent: "no"
   editor:
-    atomicSoftTabs: false
+    showInvisibles: true
   "exception-reporting":
-    userId: "811d6cd1-f294-4c59-9cd2-28dbce0754c8"
-  "linter-ui-default":
-    panelHeight: 69
+    userId: "e82837ec-5370-4ce9-b89b-3c1cce769752"
   minimap:
     plugins:
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
-  "php-integrator-base:confirmed-upgrade-message": true
   welcome:
     showOnStartup: false
