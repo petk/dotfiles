@@ -4,7 +4,10 @@
   editor:
     showInvisibles: true
   "exception-reporting":
-    userId: "e82837ec-5370-4ce9-b89b-3c1cce769752"
+    userId: "d2ec4eb8-970c-4dbb-815f-3167c6adb1ca"
+  "linter-ui-default":
+    panelHeight: 69
+    showPanel: true
   minimap:
     plugins:
       "highlight-selected": true
