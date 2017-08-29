@@ -7,7 +7,7 @@
   "exception-reporting":
     userId: "d2ec4eb8-970c-4dbb-815f-3167c6adb1ca"
   "linter-ui-default":
-    panelHeight: 69
+    panelHeight: 300
   minimap:
     plugins:
       "highlight-selected": true
