@@ -1,5 +1,9 @@
 "*":
   core:
+    customFileTypes:
+      "text.ignore": [
+        ".dockerignore"
+      ]
     telemetryConsent: "no"
   editor:
     showInvisibles: true

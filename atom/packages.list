@@ -12,7 +12,7 @@ language-csv@1.1.2
 language-docker@1.1.8
 language-generic-config@1.4.0
 language-groovy@0.7.0
-language-ignore@1.6.0
+language-ignore@1.7.4
 language-ini@1.19.0
 language-nginx@0.8.0
 language-patch@1.2.0
