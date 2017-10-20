@@ -1,6 +1,7 @@
 atom-beautify@0.30.5
+atom-ide-ui@0.5.1
 atom-minify@0.8.0
-atom-typescript@11.0.9
+atom-typescript@11.0.10
 busy-signal@1.4.3
 ctrl-dir-scroll@0.2.5
 docblockr@0.11.0
@@ -31,8 +32,8 @@ php-integrator-navigation@1.2.1
 php-integrator-refactoring@1.4.1
 php-twig@4.0.0
 project-manager@3.3.5
-shebang-set-grammar@0.6.0
-sort-lines@0.15.0
+shebang-set-grammar@0.7.0
+sort-lines@0.18.0
 split-diff@1.5.1
-todo-show@2.0.0
+todo-show@2.1.0
 

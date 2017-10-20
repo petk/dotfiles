@@ -4,6 +4,9 @@
       "text.ignore": [
         ".dockerignore"
       ]
+    disabledPackages: [
+      "linter"
+    ]
     telemetryConsent: "no"
   editor:
     showInvisibles: true
@@ -18,3 +21,9 @@
       "highlight-selectedDecorationsZIndex": 0
   welcome:
     showOnStartup: false
+".editorconfig.source":
+  editor:
+    tabLength: 4
+".makefile.source":
+  editor:
+    autoIndent: true
