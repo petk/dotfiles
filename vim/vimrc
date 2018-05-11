@@ -144,8 +144,9 @@ set colorcolumn=80
 " NERDTree
 """"""""""""""""""""""""""""""""""""""""
 
-autocmd VimEnter * NERDTree
-let NERDTreeShowHidden=1
+" Open NerdTree only if no file is present
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd VimEnter * wincmd p
 
 autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()
